@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://rohanchandra.github.io/"
+url: "https://internetfreedomhack.netlify.com"
 
 collections:
 - speakers
@@ -32,7 +32,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "rohanchandra/type-theme"
+  github: "hackforprivacy/internetfreedomhack-website"
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -49,7 +49,7 @@ theme_settings:
   # Scripts
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
-  katex: true # Enable if using math markup
+  katex: false # Enable if using math markup
   search: false # Enable the search feature
 
   # Localization strings
