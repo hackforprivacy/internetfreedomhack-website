@@ -13,7 +13,7 @@ input, textarea {
   width: 100%;
 }
 
-section.speakers-or-judges, .location {
+section.speakers-or-judges, .location, section.partners-or-sponsors {
   @extend %padding-regular;
   width: 100%;
   margin-bottom: 0;
@@ -35,7 +35,7 @@ section.speakers-or-judges, .location {
   padding-bottom: 2rem;
 }
 
-.speaker-or-judge {
+.speaker-or-judge, .partners {
   display: flex;
 
   h2 {
@@ -60,6 +60,7 @@ section.speakers-or-judges, .location {
   flex: 3;
 }
 
+// Location & map
 .location {
   display: flex;
 }
@@ -69,4 +70,12 @@ section.speakers-or-judges, .location {
 .location .address {
   flex: 3;
   padding-left: 20px;
+}
+
+// Partners & Sponsors
+.partners-or-sponsors {
+  text-align: center;
+}
+.org {
+  width: 33%;
 }

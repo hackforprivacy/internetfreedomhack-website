@@ -7,6 +7,10 @@ collections:
     output: false
   judges:
     output: false
+  partners:
+    output: false
+  sponsors:
+    output: false
   events:
     output: true
     permalink: /:name
