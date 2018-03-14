@@ -48,13 +48,13 @@ layout: default
 
   <section class="partners-or-sponsors">
     <h1>Partners</h1>
-    <div>
+    <div class="grid">
       {% for org in site.partners %}
         {% include partner_or_sponsor.html org=org %}
       {% endfor %}
     </div>
     <h1>Sponsors</h1>
-    <div>
+    <div class="grid">
       {% for org in site.sponsors %}
         {% include partner_or_sponsor.html org=org %}
       {% endfor %}

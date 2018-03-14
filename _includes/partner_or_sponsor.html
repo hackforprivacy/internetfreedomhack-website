@@ -1,6 +1,9 @@
 <div class="org">
   <a href="{{ org.link }}" target="_blank">
-    <img src="{{ org.image }}">
-    <h3>{{ org.title }}</h3>
+    {% if org.image %}
+      <img src="{{ org.image }}">
+    {% else %}
+      <h2>{{ org.title }}</h2>
+    {% endif %}
   </a>
 </div>
