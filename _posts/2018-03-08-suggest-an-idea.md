@@ -34,7 +34,7 @@ Get ready to present your idea on the Friday night. If your idea doesn't get sel
 
 Please send us a sentence or two describing your ideas using the form below and we'll put them up here. Get your thinking hats on and submit as many as you like!
 
-<form method="POST" action="https://formspree.io/ENTER-YOUR-FORMSPREE-REGISTERED-EMAIL-HERE">
+<form name="suggest-an-idea" method="POST" netlify>
   <label for="name-field">Your name</label>
   <input id="name-field" name="name" type="text">
   <label for="email-field">Your email</label>
