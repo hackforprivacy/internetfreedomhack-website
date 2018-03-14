@@ -44,7 +44,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "hackforprivacy/internetfreedomhack-website"
+  github: 
   google_plus:
   instagram:
   linkedin:  # Full URL
@@ -54,7 +54,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "twitter"
+  twitter:
   wordpress:
   youtube:
 
