@@ -21,6 +21,9 @@
 					{{ event.title }}
 				</a>
 			</li>
+			{% if event == site.events.first %}
+				 <li>•</li>
+			{% endif %}
 			{% endfor %}
 			<!-- Social icons from Font Awesome, if enabled  -->
 			{% include icons.html %}
