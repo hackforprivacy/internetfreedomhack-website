@@ -11,7 +11,7 @@ collections:
     output: true
     permalink: /:name
   sections:
-    output: true
+    output: false
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
