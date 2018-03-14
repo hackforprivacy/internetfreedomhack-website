@@ -33,9 +33,17 @@ layout: default
     {% endfor %}
   </section>
 
-  <section class="location">
+  <section>
     <h1>Location</h1>
-    {% google_map %}
+    <div class="location">
+      <div class="map">
+        {% google_map zoom="15" %}
+      </div>
+      <div class="address">
+        <h2>{{ page.location.title }}</h2>
+        {{ page.location.address }}
+      </div>
+    </div>
   </section>
 
   {% if paginator.total_pages > 1 %}

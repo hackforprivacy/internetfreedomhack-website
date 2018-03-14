@@ -13,7 +13,7 @@ input, textarea {
   width: 100%;
 }
 
-section.speakers-or-judges {
+section.speakers-or-judges, .location {
   @extend %padding-regular;
   width: 100%;
   margin-bottom: 0;
@@ -58,4 +58,15 @@ section.speakers-or-judges {
 
 .speaker-or-judge > div {
   flex: 3;
+}
+
+.location {
+  display: flex;
+}
+.location .map {
+  flex: 1;
+}
+.location .address {
+  flex: 3;
+  padding-left: 20px;
 }
