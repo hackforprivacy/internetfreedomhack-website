@@ -1,5 +1,5 @@
 ---
 title: Buildkite
 link: https://buildkite.com/
-image: buildkite.png
+image: /assets/img/buildkite.png
 ---
