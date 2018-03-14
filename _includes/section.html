@@ -1,0 +1,12 @@
+<div class="post-teaser">
+  <header>
+    <h1>
+      <a class="post-link" href="{{ section.url | relative_url }}">
+        {{ section.title }}
+      </a>
+    </h1>
+  </header>
+  <div class="excerpt">
+    {{ section.content | markdownify }}
+  </div>
+</div>

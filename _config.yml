@@ -3,7 +3,15 @@ baseurl: ""
 url: "https://internetfreedomhack.netlify.com"
 
 collections:
-- speakers
+  speakers:
+    output: false
+  judges:
+    output: false
+  events:
+    output: true
+    permalink: /:name
+  sections:
+    output: true
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -81,7 +89,14 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  - jekyll-maps
 exclude:
   - Gemfile
   - Gemfile.lock
+
+# PLUGIN SETTINGS
+maps:
+  google:
+    api_key: AIzaSyD_W96n1fsjwSnQp8Sghfi1EEdfMqsaZdQ

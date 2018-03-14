@@ -1,6 +1,9 @@
 ---
-layout: post
+layout: section
 title: Suggest an idea
+cities:
+  - melbourne
+  - brisbane
 ---
 
 Internet freedom means a lot of things.

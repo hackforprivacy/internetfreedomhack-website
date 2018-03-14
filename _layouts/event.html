@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<div class="home">
+  {% if site.theme_settings.header_text %}
+  <div class="call-out"
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    {{ site.theme_settings.header_text }}
+  </div>
+  {% endif %}
+
+  <div class="posts">
+    {% for section in site.sections %}
+      {% if section.cities contains page.city %}
+        {% include section.html section=section %}
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <section class="speakers-or-judges">
+    <h1>Speakers</h1>
+    {% for person in site.speakers %}
+      {% if person.cities contains page.city %}
+        {% include speaker_or_judge.html person=person %}
+      {% endif %}
+    {% endfor %}
+    <h1>Judges</h1>
+    {% for person in site.judges %}
+      {% if person.cities contains page.city %}
+        {% include speaker_or_judge.html person=person %}
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  <section class="location">
+    <h1>Location</h1>
+    {% google_map %}
+  </section>
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url | replace: '//', '/' }}" class="button" >
+      <i class="fa fa-chevron-left"></i>
+      {{ site.theme_settings.str_previous_page }}
+    </a>
+    {% endif %}
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url | replace: '//', '/' }}" class="button" >
+      {{ site.theme_settings.str_next_page }}
+      <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
