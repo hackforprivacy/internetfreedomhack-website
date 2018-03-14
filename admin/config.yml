@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "assets/img"
+collections:
+  - name: "judge"
+    label: "Judge"
+    folder: "_judges"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job and qualifications", name: "job_and_qualifications", widget: "string"}
+      - {label: "City", name: "cities", widget: "select", options: ["melbourne", "brisbane"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "speaker"
+    label: "Speaker"
+    folder: "_speakers"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Job and qualifications", name: "job_and_qualifications", widget: "string"}
+      - {label: "City", name: "cities", widget: "select", options: ["melbourne", "brisbane"]}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "partner"
+    label: "Partner"
+    folder: "_partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Link", name: "link", widget: "string"}
+  - name: "sponsor"
+    label: "Sponsor"
+    folder: "_sponsors"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Link", name: "link", widget: "string"}
+  - name: "section"
+    label: "Sections"
+    folder: "_sections"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
