@@ -2,6 +2,9 @@
 baseurl: ""
 url: "https://rohanchandra.github.io/"
 
+collections:
+- speakers
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta

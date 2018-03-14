@@ -3,6 +3,9 @@
 
 @import "type-theme";
 
+h1 {
+  text-align: center;
+}
 
 input, textarea {
   display: block;
@@ -10,3 +13,49 @@ input, textarea {
   width: 100%;
 }
 
+section.speakers-or-judges {
+  @extend %padding-regular;
+  width: 100%;
+  margin-bottom: 0;
+  display: inline-block;
+  border-bottom: 1px solid $border-color;
+
+  p a {
+    @extend .body-link;
+  }
+}
+
+.speaker-or-judge + .speaker-or-judge {
+  border-top: 1px solid $border-color;
+  border-bottom: 0 !important;
+  padding-top: 3rem;
+}
+
+.speaker-or-judge:not(:last-child) {
+  padding-bottom: 2rem;
+}
+
+.speaker-or-judge {
+  display: flex;
+
+  h2 {
+    font-size: 2.5rem;
+    margin: 0 0 0.5em 0;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: 100;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+  }
+}
+
+.speaker-or-judge > header {
+  margin-right: 1.2rem;
+  flex: 1;
+}
+
+.speaker-or-judge > div {
+  flex: 3;
+}
