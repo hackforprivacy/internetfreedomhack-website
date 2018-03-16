@@ -1,7 +1,7 @@
 ---
 name: Eru Penkman
-job_and_qualifications: ?
-cities:
+job_and_qualifications: Techie
+cities: 
   - brisbane
 ---
 
