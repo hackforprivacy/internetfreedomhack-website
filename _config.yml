@@ -14,6 +14,9 @@ collections:
   events:
     output: true
     permalink: /:name
+  individual_pages:
+    output: true
+    permalink: /:name
   sections:
     output: false
 
