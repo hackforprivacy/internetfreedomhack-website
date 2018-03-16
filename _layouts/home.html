@@ -3,13 +3,17 @@ layout: default
 ---
 
 <div class="home">
-  <div class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+  <img id="home-page-image" src="{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}"> 
+  <div class="call-out">
     <div id="hackathon-title">
       {{ site.theme_settings.title }}
     </div>
     <div id="hackathon-theme">
       {{ site.theme_settings.theme }}
+    </div>
+
+    <div id="brief-overview">
+      {{ site.theme_settings.header_text }}
     </div>
 
     <div id="locations">
@@ -35,10 +39,4 @@ layout: default
       {% endfor %}
     </div>
   </div>
-  <div class="container">
-      <div id="brief-overview">
-        {{ site.theme_settings.header_text }}
-      </div>
-  </div>
- 
 </div>
