@@ -32,7 +32,7 @@ theme_settings:
      <p>Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things (e.g. software projects) that advance the cause of internet freedom.</p>
   header_text_feature_image: assets/img/home_page.png
   footer_text: >
-   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>
+   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/rohanchandra/type-theme">Type Theme</a>. A <a href="https://hackforprivacy.org">Hack for Privacy</a> initiative.
 
   # Icons
   rss: false
