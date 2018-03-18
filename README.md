@@ -6,7 +6,7 @@ Continuously deployed via Netlify.
 Based on [Type Theme](https://rohanchandra.github.io/type-theme/)
 
 ---
-## Development setup
+## Development setup (macOS)
 1. Install Ruby environment manager
 ```shell
 brew install rbenv
