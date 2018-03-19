@@ -5,6 +5,6 @@ cities:
   - melbourne
 ---
 
-Bio to go here.
-
 Subject: **Rage against the Ghost in the Machine**
+
+Bio **TBC**

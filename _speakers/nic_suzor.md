@@ -5,6 +5,6 @@ cities:
   - brisbane
 ---
 
-Bio to go here.
-
 Subject: **2 open source projects (title TBC)**
+
+Bio **TBC**

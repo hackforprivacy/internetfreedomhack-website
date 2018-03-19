@@ -5,6 +5,6 @@ cities:
   - melbourne
 ---
 
-Bio to go here.
-
 Subject: **TBC**
+
+Bio **TBC**
