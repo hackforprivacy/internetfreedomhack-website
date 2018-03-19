@@ -35,8 +35,9 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
   padding-bottom: 2rem;
 }
 
-.speaker-or-judge, .partners {
+.speaker-or-judge {
   display: flex;
+  flex-wrap: wrap;
 
   h2 {
     font-size: 2.5rem;
@@ -54,10 +55,12 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
 .speaker-or-judge > header {
   margin-right: 1.2rem;
   flex: 1;
+  min-width: 250px;
 }
 
 .speaker-or-judge > div {
   flex: 3;
+  min-width: 250px;
 }
 
 // Location & map
@@ -68,13 +71,21 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
 }
 .location-container {
   display: flex;
+  flex-wrap: wrap;
 }
 .location-container .map {
   flex: 1;
+  width: 50%;
+  min-width: 300px;
+  .google-map {
+    width: 100% !important;
+  }
 }
 .location-container .address {
-  flex: 3;
+  flex: 1;
+  width: 50%;
   padding-left: 20px;
+  min-width: 300px;
 }
 
 // Partners & Sponsors
