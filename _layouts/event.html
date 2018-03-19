@@ -3,13 +3,22 @@ layout: default
 ---
 
 <div class="home">
-  <!-- {% if site.theme_settings.header_text %}
-  <div class="call-out"
-  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-    {{ site.theme_settings.header_text }}
-  </div>
-  {% endif %} -->
+  <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+      <div class="black-tint">
+      <div id="hackathon-title">
+        {{ site.theme_settings.title }} {{ page.title }}
+      </div>
+      <div id="hackathon-theme">
+        {{ site.theme_settings.theme }}
+      </div>
 
+      <div id="brief-overview">
+        {{ page.eventdate }}<br><br>
+        {{ site.theme_settings.header_text }}
+      </div>
+
+    </div>
+  </div>
   <div class="posts">
     {% for section in site.sections %}
       {% if section.cities contains page.city %}
