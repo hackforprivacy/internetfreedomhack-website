@@ -1,6 +1,8 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
+backend:
+
 media_folder: "assets/img"
 collections:
   - name: "judge"
@@ -41,11 +43,3 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Link", name: "link", widget: "string"}
-  - name: "section"
-    label: "Sections"
-    folder: "_sections"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Body", name: "body", widget: "markdown"}

@@ -17,8 +17,6 @@ collections:
   individual_pages:
     output: true
     permalink: /:name
-  sections:
-    output: false
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:

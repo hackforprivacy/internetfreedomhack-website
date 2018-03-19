@@ -20,11 +20,17 @@ layout: default
     </div>
   </div>
   <div class="posts">
-    {% for section in site.sections %}
-      {% if section.cities contains page.city %}
-        {% include section.html section=section %}
-      {% endif %}
-    {% endfor %}
+    <div class="post-teaser">
+      <header><h1>RSVP</h1></header>
+      <div class="excerpt">{% capture rsvp %}{% include rsvp.md %}{% endcapture %}{{ rsvp | markdownify }}</div>
+      {% include rsvp_widget.html %}
+    </div>
+    <div class="post-teaser idea">
+      <header><h1>Suggest an idea</h1></header>
+      <div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>
+    </div>
+
+
   </div>
 
   <section class="speakers-or-judges">

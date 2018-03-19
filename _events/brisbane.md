@@ -3,6 +3,7 @@ layout: event
 title: Brisbane
 city: brisbane
 eventdate: April 20th to April 22nd
+pretix_event_id: 825
 learn_more_link: "/brisbane"
 rsvp_link: "https://www.example.com"
 location:
