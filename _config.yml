@@ -33,7 +33,8 @@ theme_settings:
   header_text: >
      <p>Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things (e.g. software projects) that advance the cause of internet freedom.</p>
   header_text_feature_image: assets/img/home_page.jpg
-  footer_text:
+  footer_text: >
+     <a href="/code-of-conduct">Code of conduct</a>
 
   # Icons
   rss: false
