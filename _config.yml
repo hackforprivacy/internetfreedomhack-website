@@ -27,7 +27,7 @@ theme_settings:
   gravatar: # Email MD5 hash
   description: "Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things (e.g. software projects) that advance the cause of internet freedom." # used by search engines
   facebook_page_id: 1507988156173415
-  share_image: assets/img/home_page.jpg
+  share_image: assets/img/share.jpg
   locale: en_US
 
   # Header and footer text
