@@ -4,6 +4,7 @@ job_and_qualifications: Activist + QUT academic and APF board member
 cities:
   - brisbane
   - melbourne
+headline: true
 ---
 
 Subject: **Fighting back against internet apathy, privacy nihilism and the Government**
