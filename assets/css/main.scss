@@ -81,5 +81,9 @@ section.speakers-or-judges, .location, section.partners-or-sponsors {
   align-items: center;
 }
 .org {
-  width: 33%;
+  width: 25%;
+  flex: 0 1 auto;
+}
+.org img {
+  max-height: 200px;
 }
