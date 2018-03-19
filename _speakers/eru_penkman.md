@@ -5,6 +5,7 @@ cities:
   - brisbane
 ---
 
-Bio to go here.
-
 Subject: **"Aletheia, peer-to-peer academic publishing project" (title TBC)**
+
+Bio **TBC**
+
