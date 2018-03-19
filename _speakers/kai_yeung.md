@@ -1,6 +1,6 @@
 ---
 name: Kai Yeung
-job_and_qualifications: Scientist, cryptocurrency trader and poker player
+job_and_qualifications: Activist/Technologist + Scientist, cryptocurrency trader and poker player
 cities:
   - brisbane
 ---
