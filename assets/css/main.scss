@@ -13,7 +13,7 @@ input, textarea {
   width: 100%;
 }
 
-section.speakers-or-judges, .location, section.partners-or-sponsors {
+section.speakers-or-judges, section.location, section.partners-or-sponsors {
   @extend %padding-regular;
   width: 100%;
   margin-bottom: 0;
@@ -61,13 +61,18 @@ section.speakers-or-judges, .location, section.partners-or-sponsors {
 }
 
 // Location & map
+/* Background pattern from Subtle Patterns - https://www.toptal.com/designers/subtlepatterns/ */
 .location {
+  background: url('/assets/img/tiny_grid.png');
+  background-size: auto;
+}
+.location-container {
   display: flex;
 }
-.location .map {
+.location-container .map {
   flex: 1;
 }
-.location .address {
+.location-container .address {
   flex: 3;
   padding-left: 20px;
 }
