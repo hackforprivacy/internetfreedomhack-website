@@ -45,4 +45,24 @@
 	ga('send', 'pageview');
 	</script>
 	{% endif %}
+
+	<!-- Schema.org for Google -->
+	<meta itemprop="name" content="{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}">
+	<meta itemprop="description" content="{{ site.theme_settings.description }}">
+	<meta itemprop="image" content="{{ site.theme_settings.share_image }}">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}">
+	<meta name="twitter:description" content="{{ site.theme_settings.description }}">
+	<meta name="twitter:site" content="{{ site.theme_settings.twitter }}">
+	<meta name="twitter:image:src" content="{{ site.theme_settings.share_image }}">
+	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+	<meta name="og:title" content="{% if page.title %}{{ page.title }} |{% endif %} {{ site.theme_settings.title }}">
+	<meta name="og:description" content="{{ site.theme_settings.description }}">
+	<meta name="og:image" content="{{ site.theme_settings.share_image }}">
+	<meta name="og:url" content="{{ site.url }}">
+	<meta name="og:site_name" content="{{ site.theme_settings.title }}">
+	<meta name="og:locale" content="{{ site.theme_settings.locale }}">
+	<meta name="fb:admins" content="{{ site.theme_settings.facebook_page_id }}">
+	<meta name="og:type" content="website">
 </head>
