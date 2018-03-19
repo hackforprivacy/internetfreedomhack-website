@@ -7,14 +7,13 @@ layout: default
   <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
       <div class="black-tint">
         <div id="hackathon-title">
-          {{ site.theme_settings.title }} {{ page.title }}
+          {{ site.theme_settings.title }}
         </div>
         <div id="hackathon-theme">
-          {{ site.theme_settings.theme }}
+          {{ page.title }} - {{ page.eventdate }}
         </div>
 
         <div id="brief-overview">
-          {{ page.eventdate }}<br><br>
           {{ site.theme_settings.header_text }}
         </div>
     </div>
