@@ -3,22 +3,23 @@ layout: default
 ---
 
 <div class="home">
+
   <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
       <div class="black-tint">
-      <div id="hackathon-title">
-        {{ site.theme_settings.title }} {{ page.title }}
-      </div>
-      <div id="hackathon-theme">
-        {{ site.theme_settings.theme }}
-      </div>
+        <div id="hackathon-title">
+          {{ site.theme_settings.title }} {{ page.title }}
+        </div>
+        <div id="hackathon-theme">
+          {{ site.theme_settings.theme }}
+        </div>
 
-      <div id="brief-overview">
-        {{ page.eventdate }}<br><br>
-        {{ site.theme_settings.header_text }}
-      </div>
-
+        <div id="brief-overview">
+          {{ page.eventdate }}<br><br>
+          {{ site.theme_settings.header_text }}
+        </div>
     </div>
   </div>
+
   <div class="posts">
     <div class="post-teaser">
       <header><h1>RSVP</h1></header>
@@ -29,8 +30,6 @@ layout: default
       <header><h1>Suggest an idea</h1></header>
       <div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>
     </div>
-
-
   </div>
 
   <section class="speakers-or-judges">
