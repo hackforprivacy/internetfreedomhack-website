@@ -1,7 +1,7 @@
 ---
 name: Eru Penkman
-job_and_qualifications: Techie
-cities: 
+job_and_qualifications: ThoughtWorks developer and Brisbane Internet Safety meetup organiser
+cities:
   - brisbane
 ---
 
