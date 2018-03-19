@@ -79,14 +79,27 @@ section.speakers-or-judges, .location, section.partners-or-sponsors {
 .partners-or-sponsors .grid {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .org {
-  width: 25%;
+  width: 23%;
   flex: 0 1 auto;
+  border: 1px solid lightgrey;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
 }
 .org img {
-  max-height: 200px;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  max-height: 125px;
 }
 
 // Suggest an idea
