@@ -5,7 +5,6 @@ cities:
   - melbourne
   - brisbane
 ---
-
 Internet freedom means a lot of things.
 
 We want an internet that makes us more connected, more ourselves, and more equal. But the internet of today can make us more isolated, more afraid to be ourselves, and more like the property of tech giants such as Google and Facebook.

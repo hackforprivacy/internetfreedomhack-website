@@ -1,9 +1,7 @@
-<div class="post-teaser">
+<div class="post-teaser {% if section.title == 'Suggest an idea' %}idea{% endif %}">
   <header>
     <h1>
-      <a class="post-link" href="{{ section.url | relative_url }}">
-        {{ section.title }}
-      </a>
+      {{ section.title }}
     </h1>
   </header>
   <div class="excerpt">
