@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://internetfreedomhack.netlify.com"
+url: "https://internetfreedomhack.org"
 
 collections:
   speakers:
