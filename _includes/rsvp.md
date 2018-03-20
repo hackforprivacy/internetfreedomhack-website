@@ -13,7 +13,7 @@ We'll form teams – you don't need to be an expert in any field.
 ### The Talks
 #### Saturday evening
 
-Join us for talks and conversations with <a href="#speakers">renowned digital rights experts</a> across Australia.
+Join us for talks and conversations with <a href="#speakers">renowned digital rights experts</a> across Australia and beyond.
 
 <div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
 
