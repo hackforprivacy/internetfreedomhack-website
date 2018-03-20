@@ -47,12 +47,14 @@ layout: default
         {% endunless %}
       {% endif %}
     {% endfor %}
-    <h1>Judges</h1>
-    {% for person in site.judges %}
-      {% if person.cities contains page.city %}
-        {% include speaker_or_judge.html person=person %}
-      {% endif %}
-    {% endfor %}
+    {% comment %}
+      <h1>Judges</h1>
+      {% for person in site.judges %}
+        {% if person.cities contains page.city %}
+          {% include speaker_or_judge.html person=person %}
+        {% endif %}
+      {% endfor %}
+    {% endcomment %}
   </section>
 
   <section class="location">
