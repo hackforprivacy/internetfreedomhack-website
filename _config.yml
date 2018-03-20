@@ -32,7 +32,8 @@ theme_settings:
 
   # Header and footer text
   header_text: >
-     <p>Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom.</p>
+     <p>Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together for a weekend to build things that advance the cause of internet freedom.</p>
+     <p>On Saturday 21st, we'll open up to a wider audience for an event featuring talks and conversations with renowned digital rights experts across Australia. <b>Registration is now open for both events!</b></p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
      <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a>
