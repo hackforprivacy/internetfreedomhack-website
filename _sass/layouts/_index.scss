@@ -24,9 +24,19 @@
   font-weight: normal
 }
 
-.black-tint {
+.home-tint {
   @extend %padding-regular;
   background-color: rgba(0,0,0,0.6);
+}
+
+.melbourne-tint {
+  @extend %padding-regular;
+  background-color: rgba(20,63,138,0.6);
+}
+
+.brisbane-tint {
+  @extend %padding-regular;
+  background-color: rgba(142,0,0,0.6);
 }
 
 #hackathon-theme {
