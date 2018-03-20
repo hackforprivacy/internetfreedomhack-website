@@ -21,7 +21,8 @@ collections:
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "Internet Freedom Hack: Defending Truth"
+  title: "Internet Freedom Hack"
+  subtitle: "Defending Truth"
   avatar: assets/img/ifh_logo_square.png
   gravatar: # Email MD5 hash
   description: "Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom." # used by search engines
