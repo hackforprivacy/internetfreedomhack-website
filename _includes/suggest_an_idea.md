@@ -36,6 +36,6 @@ Please send us a sentence or two describing your ideas using the form below. Get
   <label for="email-field">Your email</label>
   <input id="email-field" name="email" type="email">
   <label for="idea-field">Your idea*</label>
-  <textarea id="idea-field" name="idea"></textarea>
+  <textarea id="idea-field" name="idea" required></textarea>
   <button type="submit" class="button">Send</button>
 </form>
