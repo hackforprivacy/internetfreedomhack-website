@@ -1,10 +1,8 @@
 ---
 name: Lilly Ryan
-job_and_qualifications: Activist
+job_and_qualifications: 
 cities:
   - melbourne
 ---
 
-Subject: **Rage against the Ghost in the Machine**
-
-Bio **TBC**
+**Rage against the Ghost in the Machine**
