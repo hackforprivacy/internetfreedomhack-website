@@ -5,7 +5,5 @@ cities:
   - brisbane
 ---
 
-Subject: **TBC**
-
-Bio **TBC**
+**TBC**
 
