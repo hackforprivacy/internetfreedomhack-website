@@ -1,6 +1,6 @@
 ---
 name: Lauri Love with Monique Mann
-job_and_qualifications: Activist + QUT academic and APF board member
+job_and_qualifications: INTERNET ACTIVIST / HACKTIVIST + TECH / RIGHTS RESEARCHER / SCHOLACTIVIST
 cities:
   - brisbane
   - melbourne
