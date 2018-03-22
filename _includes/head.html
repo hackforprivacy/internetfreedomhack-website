@@ -49,7 +49,7 @@
 	<!-- Schema.org for Google -->
 	<meta itemprop="name" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
 	<meta itemprop="description" content="{{ site.theme_settings.description }}">
-	<meta itemprop="image" content="{{ site.theme_settings.share_image }}">
+	<meta itemprop="image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
 	<!-- Twitter -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
@@ -59,7 +59,7 @@
 	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 	<meta name="og:title" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
 	<meta name="og:description" content="{{ site.theme_settings.description }}">
-	<meta name="og:image" content="{{ site.theme_settings.share_image }}">
+	<meta name="og:image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
 	<meta name="og:url" content="{{ site.url }}">
 	<meta name="og:site_name" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}">
 	<meta name="og:locale" content="{{ site.theme_settings.locale }}">
