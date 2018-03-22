@@ -60,7 +60,11 @@
 	<meta name="og:title" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
 	<meta name="og:description" content="{{ site.theme_settings.description }}">
 	<meta name="og:image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
+	{% if page.url %}
+  <meta name="og:url" content="{{ site.url }}{{ page.url }}">
+	{% else %}
 	<meta name="og:url" content="{{ site.url }}">
+	{% endif %}
 	<meta name="og:site_name" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}">
 	<meta name="og:locale" content="{{ site.theme_settings.locale }}">
 	<meta name="fb:admins" content="{{ site.theme_settings.facebook_page_id }}">
