@@ -36,7 +36,7 @@ theme_settings:
      <p>On Saturday, we'll open up to a wider audience for talks and conversations with renowned digital rights experts across Australia and beyond. <b>Registration is now open for both events!</b></p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
-     <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a>
+     <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
 
   # Icons
   rss: false
