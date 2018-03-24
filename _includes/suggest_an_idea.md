@@ -1,12 +1,12 @@
 Internet freedom means a lot of things.
 
-We want an internet that makes us more connected, more ourselves, and more equal. But the internet of today can make us more isolated, more afraid to be ourselves, and more like the property of tech giants such as Google and Facebook.
+We want an internet that makes us more connected, more ourselves, and more equal. But the internet of today can make us more isolated, more afraid to be ourselves, and more under the control of tech giants such as Google and Facebook.
 
 **For submitting ideas, we’re encouraging you to think big:**
 
-- How can the internet be a force for good in our personal lives?
-- How can the internet be a force for good in society?
-- Can we use the internet in a different way to how we use it today?
+- How does the internet need to change, to be a force for good in our personal lives?
+- How does the internet need to change, to be a force for good in society?
+- How can we use the internet in a different way to make that happen?
 - What existing projects can we build on or support?
 
 For examples of the kinds of ideas you could work on, see these fantastic final projects from last year's hackathon:
@@ -24,7 +24,7 @@ The best ideas for the weekend will be:
 - **clear**
 - **achievable**
 - something that **improves** your life or the life of someone you know
-- something you would **like** to work on over the weekend with a team of 4-6 people
+- something you would **like to work on** over the weekend with a team of 4-6 people
 
 Get ready to present your idea on the Friday night. If your idea doesn't get selected, don't worry; you can join forces with someone else – we'll make sure that you're part of a group.
 
