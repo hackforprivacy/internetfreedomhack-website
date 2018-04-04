@@ -1,6 +1,5 @@
 ---
 title: Linux Australia
-image: /assets/img/linux-australia-logo.png
+image: /assets/img/linuxaustralia.jpg
 link: 'https://www.linux.org.au'
 ---
-
