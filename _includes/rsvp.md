@@ -22,3 +22,5 @@ Join us for a series of talks and conversations with <a href="#speakers">renowne
 Internet Freedom Hack {{ page.title }} is running from <b>{{ page.eventdate }}</b> at <b>{{ page.location.title }}</b>.
 
 All meals and drinks will be provided.
+
+This is a child friendly event. There will be activities, games and a dedicated child play room. Please <a href="/contact-us">get in touch</a> to let us know if you are bringing kids, and their age, so we can provide age appropriate entertainment.
