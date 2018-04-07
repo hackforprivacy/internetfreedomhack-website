@@ -24,16 +24,23 @@ rbenv install 2.5.0
 rbenv init
 ```
 5. Restart the terminal
-6. Run the install bundler
+6. Set your local ruby to the version you installed in step 3
+```shell
+rbenv local 2.5.0
+```
+7. Run the install bundler
 ```shell
 gem install bundler
 ```
-7. Install the dependencies listed in the Gemfile
+8. Install the dependencies listed in the Gemfile
 ```shell
 bundler install
 ```
-8. Start the server
+9. Start the server
 ```shell
 jekyll serve
 ```
-
+If this doesn't work try
+```shell
+bundle exec jekyll serve
+```
