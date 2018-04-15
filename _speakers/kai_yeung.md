@@ -1,6 +1,8 @@
 ---
 name: Kai Yeung
 job_and_qualifications: 'Activist/Technologist, Scientist, cryptocurrency trader and poker player'
+cities:
+  - brisbane
 ---
 **Internet Freedom Launchpad **_– this talk will kick off the hack on Friday evening_
 
