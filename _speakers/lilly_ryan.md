@@ -1,7 +1,8 @@
 ---
 name: Lilly Ryan
 job_and_qualifications: 'Pentester, security engineer, afterlife architect'
-cities: melbourne
+cities:
+  - melbourne
 ---
 **Rage against the Ghost in the Machine **_– this talk will kick off the hack on Friday evening_
 
