@@ -1,11 +1,8 @@
 ---
 name: Lilly Ryan
-job_and_qualifications: Pentester, security engineer, afterlife architect
-cities:
-  - melbourne
+job_and_qualifications: 'Pentester, security engineer, afterlife architect'
 ---
-
-**Rage against the Ghost in the Machine**
+**Rage against the Ghost in the Machine **_– this talk will kick off the hack on Friday evening_
 
 You may not worry about your data today, but what will happen to it when you decide to leave a service? What could (and should) happen to it after death: the ultimate log out? What does your online presence look like when you are no longer around to pull its strings?
 
