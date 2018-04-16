@@ -1,5 +1,5 @@
 ---
-name: Julz Scharf
+name: Julian Scharf
 job_and_qualifications: Software Engineer / FunCaptcha
 cities:
   - brisbane
