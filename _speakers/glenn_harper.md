@@ -3,6 +3,7 @@ name: Glenn Harper
 job_and_qualifications: Librarian interested in fake news and digital media literacy
 cities:
   - melbourne
+  - brisbane
 ---
 **We need to talk about fake news**
 
