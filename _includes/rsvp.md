@@ -11,7 +11,7 @@ We'll form teams – you don't need to be an expert in any field.
 <hr>
 
 ### The Talks
-#### Saturday evening
+#### Saturday evening from 5:30PM
 
 Join us for a series of talks and conversations with <a href="#speakers">renowned digital rights experts, activists, and technologists</a> across Australia and beyond.
 
