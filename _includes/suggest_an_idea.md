@@ -1,3 +1,5 @@
+**We've received sixteen ideas and counting. Have a look at [the list of ideas so far](https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-what-should-we-do/).**
+
 Internet freedom means a lot of things.
 
 We want an internet that makes us more connected, more ourselves, and more equal. But the internet of today can make us more isolated, more afraid to be ourselves, and more like the property of tech giants such as Google and Facebook.
@@ -8,14 +10,6 @@ We want an internet that makes us more connected, more ourselves, and more equal
 - How does the internet need to change, to be a force for good in society?
 - How can we use the internet in a different way to make that happen?
 - What existing projects can we build on or support?
-
-For examples of the kinds of ideas you could work on, see these fantastic final projects from last year's hackathon:
-
-- [DecentralisedU](https://github.com/tommycp3/uport) by Privacy Enablers: A decentralized system through which users can own and control their data!
-- [L33t Sp3ak 2.0](https://github.com/kendricktan/leetspeak2.0) by #!: Cryptography that’s readable by humans but not by machines!
-- [WhatchaNo?](https://github.com/hpand3/whatchano): A platform that will show you the posts with the worst sentiment from your social media accounts.
-- [Internet Freedom Launchpad](https://github.com/samuelhbne/vpn-launchpad): A cloud based dynamic and disposable VPN solution that gives you a new instance everytime you use it and stores no logs.
-- [Free Elbownia!](https://writer.inklestudios.com/stories/cdnz) by Crypto Anarchists: A privacy game where Agent Frankie F from Freedonia infiltrates Elbownia to extract information that will be used to destroy the “Great Elbownian Firewall”. Agent Frankie F will have to overcome several internet privacy traps to succeed at his mission.
 
 Ideas can be big and crazy or just for fun – they are starting points, and they don’t have to be technical. The event is about getting together with like-minded people, getting started and having fun, evolving our ideas as we go.
 
