@@ -25,15 +25,15 @@ theme_settings:
   subtitle: "Defending Truth"
   avatar: assets/img/ifh_logo_square.png
   gravatar: # Email MD5 hash
-  description: "Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom." # used by search engines
+  description: "Internet Freedom Hack is a series of community events that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom." # used by search engines
   facebook_page_id: 1507988156173415
   share_image: assets/img/share.jpg
   locale: en_US
 
   # Header and footer text
   header_text: >
-     <p>Internet Freedom Hack is a community event that brings technologists with a passion for digital rights together for a weekend to build things that advance the cause of internet freedom.</p>
-     <p>On Saturday, we'll open up to a wider audience for talks and conversations with renowned digital rights experts across Australia and beyond. <b>Registration is now open for both events!</b></p>
+     <p>Internet Freedom Hack is a series of community event that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom.</p>
+     <p>The last Internet Freedom Hack, "Defending Truth", recently took place across Brisbane and Melbourne on April 20-22nd. Details from the hack & talks, as well as plans for future hacks, will be available soon <a href="https://hackforprivacy.org">on the Hack For Privacy blog</a>.</p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
      <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-what-should-we-do/">Project ideas</a> • <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-who-should-come/">Who should come?</a> • <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
