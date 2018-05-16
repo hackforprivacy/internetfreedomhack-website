@@ -6,7 +6,7 @@ Continuously deployed via Netlify.
 Based on [Type Theme](https://rohanchandra.github.io/type-theme/)
 
 ---
-## Development setup (docker-compose on macOS)
+## Development setup
 
 1. Install Docker and docker-compose
 2. Run `docker-compose up -d`
