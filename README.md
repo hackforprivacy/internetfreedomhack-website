@@ -9,7 +9,7 @@ Based on [Type Theme](https://rohanchandra.github.io/type-theme/)
 ## Development setup
 
 1. Install Docker and docker-compose
-2. Run `docker-compose up -d`
+2. Run `docker-compose up -d`. This will start the Jekyll development server.
 3. Website should be available at [http://localhost:4000](http://localhost:4000). It will auto-regenerate on changes.
 
 ### Troubleshooting 
