@@ -10,7 +10,9 @@ You may not worry about your data today, but what will happen to it when you dec
 
 Outside of ‘Black Mirror’ episodes and art installations, the question of personal data and digital legacies is rarely seriously considered, and it leads to uncomfortable gaffes as digital services grapple with what to do when users die. This talk is a space to take stock of how the software we write today could be used in fifty years, and what design decisions we should make to ensure we can respect the wishes of the dead - and to make informed choices far easier for the living.
 
+<div style="text-align:center;">
 <iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
 
 ## Angus Murray –  Algorised justice, privacy and a panoptic future
 
