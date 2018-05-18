@@ -6,6 +6,10 @@ layout: page
 
 These presentations are from the April 2018 (“Defending Truth”) Internet Freedom Hack.
 
+## Lilly Ryan
+### Rage against the Ghost in the Machine
+<iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ## Angus Murray
 ### Algorised justice, privacy and a panoptic future
 <iframe src="https://player.vimeo.com/video/270582076" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -25,7 +29,3 @@ These presentations are from the April 2018 (“Defending Truth”) Internet Fre
 ## Laurie Love and Monique Mann
 ### Fighting back against internet apathy, privacy nihilism and the Government
 <iframe src="https://player.vimeo.com/video/270585593" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-## Lilly Ryan
-### Rage against the Ghost in the Machine
-<iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
