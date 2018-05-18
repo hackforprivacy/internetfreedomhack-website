@@ -14,7 +14,7 @@ Outside of ‘Black Mirror’ episodes and art installations, the question of pe
 
 ## Angus Murray –  Algorised justice, privacy and a panoptic future
 
-Angus Murray is VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES
+Angus Murray is VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES.
 
 The recent and rapid increase in technology and its societal application has created the need to carefully balance technology against fundamental human rights. The writer argues that technological development is inevitable and this inevitability bolsters the importance of informed discussion about its application and impact upon future generations. In this presentation, the ‘right to privacy’ is measured and assessed against the deployment of algorithmic solutions by the Courts and governments internationally.
 
@@ -35,9 +35,9 @@ We all think that we are immune from fake news. Even Flat Earthers believe they 
 ## Julian Scharf – Rise of the machines: Ghosts in the queue
 Julian Scharf is a SOFTWARE ENGINEER at FUNCAPTCHA.
 
-<iframe src="https://player.vimeo.com/video/270580970" width="640" height="360" frameborder="0" allowfullscreen></iframe>
-
 What do airfares, rock concerts and retro gaming consoles have in common? They all have millions of bots waiting in line to place orders. Artificially inflated queues are a growing problem, and in nearly all cases, the consumer loses out. Julian, an engineer will be speaking about “ghost queues” where they occur and the economic fall out for both vendors and consumers.
+
+<iframe src="https://player.vimeo.com/video/270580970" width="640" height="360" frameborder="0" allowfullscreen></iframe>
 
 ## Lauri Love and Monique Mann – Fighting back against internet apathy, privacy nihilism and the Government
 Lauri Love is an INTERNET ACTIVIST / HACKTIVIST and Dr Monique Mann is a TECH / RIGHTS RESEARCHER / SCHOLACTIVIST.
