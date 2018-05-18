@@ -2,8 +2,6 @@
 layout: page
 ---
 
-# Internet Freedom Hack: Defending Truth
-
 ## Lilly Ryan – Rage against the Ghost in the Machine
 
 Lilly is a PENTESTER, SECURITY ENGINEER, AFTERLIFE ARCHITECT.
