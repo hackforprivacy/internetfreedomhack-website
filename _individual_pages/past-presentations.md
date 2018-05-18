@@ -2,7 +2,7 @@
 layout: page
 ---
 
-## Lilly Ryan – Rage against the Ghost in the Machine
+## Rage against the Ghost in the Machine – Lilly Ryan
 
 _Lilly Ryan is a PENTESTER, SECURITY ENGINEER, and AFTERLIFE ARCHITECT._
 
@@ -14,7 +14,7 @@ Outside of ‘Black Mirror’ episodes and art installations, the question of pe
 <iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
-## Angus Murray –  Algorised justice, privacy and a panoptic future
+## Algorised justice, privacy and a panoptic future – Angus Murray
 
 _Angus Murray is VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES._
 
@@ -27,14 +27,14 @@ Asher Wolf is the founder of CRYPTOPARTY and an AMNESTY AUSTRALIA 'HUMANITARIAN 
 
 <iframe src="https://player.vimeo.com/video/270585139" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## Glenn Harper – We need to talk about fake news
+## We need to talk about fake news – Glenn Harper
 _Glenn Harper is a LIBRARIAN INTERESTED IN FAKE NEWS AND DIGITAL MEDIA LITERACY._
 
 We all think that we are immune from fake news. Even Flat Earthers believe they are the most skeptical and best informed peeple in the chat room. But how good are we at really sorting the accurate from the misleading and downright fake when we peruse our social media feed? Let’s put ourselves to the test and discover how good our digital media literacy really is.
 
 <iframe src="https://player.vimeo.com/video/270583787" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-## Julian Scharf – Rise of the machines: Ghosts in the queue
+## Rise of the machines: Ghosts in the queue – Julian Scharf
 _Julian Scharf is a SOFTWARE ENGINEER at FUNCAPTCHA._
 
 What do airfares, rock concerts and retro gaming consoles have in common? They all have millions of bots waiting in line to place orders. Artificially inflated queues are a growing problem, and in nearly all cases, the consumer loses out. Julian, an engineer will be speaking about “ghost queues” where they occur and the economic fall out for both vendors and consumers.
