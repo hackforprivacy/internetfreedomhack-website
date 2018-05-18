@@ -4,23 +4,22 @@ layout: page
 
 # Internet Freedom Hack: Defending Truth
 
-These presentations are from the April 2018 (“Defending Truth”) Internet Freedom Hack.
+## Lilly Ryan – Rage against the Ghost in the Machine
 
-
-
-### Rage against the Ghost in the Machine
-**Lilly Ryan** – PENTESTER, SECURITY ENGINEER, AFTERLIFE ARCHITECT
-
-<iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+Lilly is a PENTESTER, SECURITY ENGINEER, AFTERLIFE ARCHITECT.
 
 You may not worry about your data today, but what will happen to it when you decide to leave a service? What could (and should) happen to it after death: the ultimate log out? What does your online presence look like when you are no longer around to pull its strings?
 
 Outside of ‘Black Mirror’ episodes and art installations, the question of personal data and digital legacies is rarely seriously considered, and it leads to uncomfortable gaffes as digital services grapple with what to do when users die. This talk is a space to take stock of how the software we write today could be used in fifty years, and what design decisions we should make to ensure we can respect the wishes of the dead - and to make informed choices far easier for the living.
 
-## Angus Murray
-VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES
-### Algorised justice, privacy and a panoptic future
+<iframe src="https://player.vimeo.com/video/270584609" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+## Angus Murray –  Algorised justice, privacy and a panoptic future
+
+Angus Murray is VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES
+
 The recent and rapid increase in technology and its societal application has created the need to carefully balance technology against fundamental human rights. The writer argues that technological development is inevitable and this inevitability bolsters the importance of informed discussion about its application and impact upon future generations. In this presentation, the ‘right to privacy’ is measured and assessed against the deployment of algorithmic solutions by the Courts and governments internationally.
+
 <iframe src="https://player.vimeo.com/video/270582076" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ## Asher Wolf
