@@ -1,6 +1,6 @@
 ---
 name: Eru Penkman
-job_and_qualifications: software developer and organiser in the privacy and decentralisation communities
+job_and_qualifications: Software developer and organiser in the privacy and decentralisation communities
 cities:
   - brisbane
 ---

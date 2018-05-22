@@ -1,6 +1,6 @@
 ---
 name: Lauri Love with Monique Mann
-job_and_qualifications: INTERNET ACTIVIST / HACKTIVIST + TECH / RIGHTS RESEARCHER / SCHOLACTIVIST
+job_and_qualifications: Internet activist/hacktivist and tech rights researcher / scholactivist
 cities:
   - brisbane
   - melbourne
