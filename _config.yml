@@ -33,7 +33,6 @@ theme_settings:
   # Header and footer text
   header_text: >
      <p>Internet Freedom Hack is a series of community event that brings technologists with a passion for digital rights together to build things that advance the cause of internet freedom.</p>
-     <p>The last Internet Freedom Hack, "Defending Truth", recently took place across Brisbane and Melbourne on April 20-22nd. Details from the hack & talks, as well as plans for future hacks, will be available soon <a href="https://hackforprivacy.org" style="font-weight: bold; color: white;">on the Hack For Privacy blog</a>.</p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
      <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-what-should-we-do/">Project ideas</a> • <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-who-should-come/">Who should come?</a> • <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
