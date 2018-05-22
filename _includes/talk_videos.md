@@ -20,7 +20,7 @@ The recent and rapid increase in technology and its societal application has cre
 </div>
 
 ## Asher Wolf – Wyrd Networks in Digital Rights Activism
-Asher Wolf is the founder of Cryptoparty and an Amnesty Australia Humanitarian Media Award Recipient 2014
+_Asher Wolf is the founder of Cryptoparty and an Amnesty Australia Humanitarian Media Award Recipient 2014._
 <div style="text-align:center;">
 <iframe src="https://player.vimeo.com/video/271025691" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
