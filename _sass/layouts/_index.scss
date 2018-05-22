@@ -35,6 +35,10 @@
   background-color: rgba(0,0,0,0.6);
 }
 
+.home-no-tint {
+  @extend %padding-regular;
+}
+
 .melbourne-tint {
   @extend %padding-regular;
   background-color: rgba(20,63,138,0.6);

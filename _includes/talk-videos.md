@@ -1,7 +1,3 @@
----
-layout: page
----
-
 ## Rage against the Ghost in the Machine – Lilly Ryan
 
 _Lilly Ryan is a PENTESTER, SECURITY ENGINEER, and AFTERLIFE ARCHITECT._
@@ -20,7 +16,7 @@ _Angus Murray is VICE PRESIDENT OF THE QUEENSLAND COUNCIL FOR CIVIL LIBERTIES._
 
 The recent and rapid increase in technology and its societal application has created the need to carefully balance technology against fundamental human rights. The writer argues that technological development is inevitable and this inevitability bolsters the importance of informed discussion about its application and impact upon future generations. In this presentation, the ‘right to privacy’ is measured and assessed against the deployment of algorithmic solutions by the Courts and governments internationally.
 <div style="text-align:center;">
-<iframe src="https://player.vimeo.com/video/2710206186" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/271020618" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
 ## Asher Wolf – Wyrd Networks in Digital Rights Activism
@@ -42,7 +38,7 @@ _Julian Scharf is a SOFTWARE ENGINEER at FUNCAPTCHA._
 
 What do airfares, rock concerts and retro gaming consoles have in common? They all have millions of bots waiting in line to place orders. Artificially inflated queues are a growing problem, and in nearly all cases, the consumer loses out. Julian, an engineer will be speaking about “ghost queues” where they occur and the economic fall out for both vendors and consumers.
 <div style="text-align:center;">
-<iframe src="https://player.vimeo.com/video/271024249" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/271024249" width="640" height="480" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Lauri Love and Dr Monique Mann – Fighting back against internet apathy, privacy nihilism and the Government
