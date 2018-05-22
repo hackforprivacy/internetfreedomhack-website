@@ -138,3 +138,11 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
     color: white;
   }
 }
+// Register interest
+.posts .interest {
+  background-image: url('/assets/img/darkness.png');
+  background-size: auto;
+  p, li, h1, label {
+    color: white;
+  }
+}

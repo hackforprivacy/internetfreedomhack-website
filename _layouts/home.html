@@ -13,6 +13,8 @@ layout: default
       <h4 id="brief-overview">
         {{ site.theme_settings.header_text }}
       </h4>
+
+
       <div id="talk-videos">
         <h4 class="event-title">
           Watch the talks from Internet Freedom Hack: Defending Truth
@@ -25,9 +27,14 @@ layout: default
         <iframe src="https://player.vimeo.com/video/270585593" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
-
   </div>
-<div class="home-no-tint">
-{% capture videos %}{% include talk-videos.md %}{% endcapture %}{{ videos | markdownify }}
-</div>
+  <div class="posts">
+    <div class="post-teaser interest">
+      <header><h1>Registration for Aaron Swartz Day 2018</h1></header>
+      <div class="excerpt">{% capture interest %}{% include register_interest.md %}{% endcapture %}{{ interest | markdownify }}</div>
+    </div>
+  </div>
+  <div class="home-no-tint">
+    {% capture videos %}{% include talk_videos.md %}{% endcapture %}{{ videos | markdownify }}
+  </div>
 </div>
