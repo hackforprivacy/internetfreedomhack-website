@@ -32,6 +32,10 @@ layout: default
     </div>
   </div>
   <div class="home-no-tint">
+    {% capture projects %}{% include projects.md %}{% endcapture %}{{ projects | markdownify }}
+  </div>
+  <div class="home-no-tint">
     {% capture videos %}{% include talk_videos.md %}{% endcapture %}{{ videos | markdownify }}
   </div>
+
 </div>
