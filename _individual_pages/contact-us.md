@@ -2,7 +2,9 @@
 layout: page
 ---
 
-<form name="contact-us" method="POST" netlify>
+<form name="contact-us" method="POST" netlify-honeypot="poneyhot" netlify>
+    <label id="poneyhot-label" for="poneyhot">Poneyhot</label>
+    <input id="poneyhot-field" name="poneyhot" type="text">
     <p>
         <label>Name: <input type="text" name="name"></label>
     </p>

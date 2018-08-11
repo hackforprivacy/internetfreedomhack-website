@@ -24,7 +24,9 @@ Get ready to present your idea on the Friday night. If your idea doesn't get sel
 
 Please send us a sentence or two describing your ideas using the form below. Get your thinking hats on and submit as many as you like!
 
-<form name="suggest-an-idea" method="POST" netlify>
+<form name="suggest-an-idea" method="POST" netlify-honeypot="poneyhot" netlify>
+  <label id="poneyhot-label" for="poneyhot">Poneyhot</label>
+  <input id="poneyhot-field" name="poneyhot" type="text">
   <label for="name-field">Your name</label>
   <input id="name-field" name="name" type="text">
   <label for="email-field">Your email</label>
