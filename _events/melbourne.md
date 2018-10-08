@@ -2,11 +2,11 @@
 layout: event
 title: Melbourne
 city: melbourne
-eventdate: April 20th to April 21st
-friendly_eventdate: Friday & Saturday
-pretix_event_id: 826
+eventdate: November 9th to 11th
+friendly_eventdate: All weekend
+pretix_event_id: 2616
 learn_more_link: "/melbourne"
-rsvp_link: "https://pretix.eu/thoughtworks/freedomhack/826/"
+rsvp_link: "https://pretix.eu/thoughtworks/IFH-DE/2616/"
 location:
   latitude: -37.8166797
   longitude: 144.9617733

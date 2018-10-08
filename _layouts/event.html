@@ -1,63 +1,62 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
-  <div class="posts">
-    <!-- <div class="post-teaser">
-      <header><h1>RSVP</h1></header>
-      <div class="excerpt center">{% capture rsvp %}{% include rsvp.md %}{% endcapture %}{{ rsvp | markdownify }}</div>
-    </div> -->
-    <div class="post-teaser interest">
-      <header><h1>Registration for Aaron Swartz Day 2018</h1></header>
-      <div class="excerpt">{% capture interest %}{% include register_interest.md %}{% endcapture %}{{ interest | markdownify }}</div>
+  <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    <div class="{{ page.city }}-tint">
+      <h1 id="hackathon-title">
+        {{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}
+      </h1>
+      <h4 id="hackathon-theme">
+        {{ page.title }} - <nobr>{{ page.eventdate }}</nobr>
+      </h4>
+
+      <h4 id="brief-overview">
+        {{ site.theme_settings.header_text }}
+      </h4>
     </div>
-    <!-- <div class="post-teaser idea">
-      <header><h1>Suggest an idea</h1></header>
-      <div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>
-    </div> -->
   </div>
 
-  <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-      <div class="{{ page.city }}-tint">
-        <h1 id="hackathon-title">
-          {{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}
-        </h1>
-        <h4 id="hackathon-theme">
-          {{ page.title }} - <nobr>{{ page.eventdate }}</nobr>
-        </h4>
-
-        <h4 id="brief-overview">
-          {{ site.theme_settings.header_text }}
-        </h4>
+  <div class="posts">
+    <div class="post-teaser">
+      <header><h1>RSVP</h1></header>
+      <div class="excerpt center">{% capture rsvp %}{% include rsvp.md %}{% endcapture %}{{ rsvp | markdownify }}</div>
+    </div>
+    <div class="post-teaser idea">
+      <header><h1>Suggest an idea</h1></header>
+      <div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>
     </div>
   </div>
 
   <a name="speakers" id="speakers"></a>
   <section class="speakers-or-judges">
     <h1>Speakers</h1>
+    {% assign numSpeakers = site.speakers | size %}
+    {% if numSpeakers == 0 %}
+      <p>Speakers TBA</p>
+    {% endif %}
     {% for person in site.speakers %}
-      {% if person.cities contains page.city %}
-        {% if person.headline %}
-          {% include speaker_or_judge.html person=person %}
-        {% endif %}
-      {% endif %}
+    {% if person.cities contains page.city %}
+    {% if person.headline %}
+    {% include speaker_or_judge.html person=person %}
+    {% endif %}
+    {% endif %}
     {% endfor %}
     {% for person in site.speakers %}
-      {% if person.cities contains page.city %}
-        {% unless person.headline %}
-          {% include speaker_or_judge.html person=person %}
-        {% endunless %}
-      {% endif %}
+    {% if person.cities contains page.city %}
+    {% unless person.headline %}
+    {% include speaker_or_judge.html person=person %}
+    {% endunless %}
+    {% endif %}
     {% endfor %}
     {% comment %}
-      <h1>Judges</h1>
-      {% for person in site.judges %}
-        {% if person.cities contains page.city %}
-          {% include speaker_or_judge.html person=person %}
-        {% endif %}
-      {% endfor %}
+    <h1>Judges</h1>
+    {% for person in site.judges %}
+    {% if person.cities contains page.city %}
+    {% include speaker_or_judge.html person=person %}
+    {% endif %}
+    {% endfor %}
     {% endcomment %}
   </section>
 
@@ -78,15 +77,104 @@ layout: default
     <h1>Partners</h1>
     <div class="grid">
       {% for org in site.partners %}
-        {% include partner_or_sponsor.html org=org %}
+      {% include partner_or_sponsor.html org=org %}
       {% endfor %}
     </div>
     <h1>Sponsors</h1>
     <div class="grid">
       {% for org in site.sponsors %}
-        {% include partner_or_sponsor.html org=org %}
+      {% include partner_or_sponsor.html org=org %}
       {% endfor %}
     </div>
   </section>
 
 </div>
+
+<!--<div class="home">-->
+
+  <!--<div class="posts">-->
+    <!--&lt;!&ndash; <div class="post-teaser">-->
+      <!--<header><h1>RSVP</h1></header>-->
+      <!--<div class="excerpt center">{% capture rsvp %}{% include rsvp.md %}{% endcapture %}{{ rsvp | markdownify }}</div>-->
+    <!--</div> &ndash;&gt;-->
+    <!--<div class="post-teaser interest">-->
+      <!--<header><h1>Registration for Aaron Swartz Day 2018</h1></header>-->
+      <!--<div class="excerpt">{% capture interest %}{% include register_interest.md %}{% endcapture %}{{ interest | markdownify }}</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash; <div class="post-teaser idea">-->
+      <!--<header><h1>Suggest an idea</h1></header>-->
+      <!--<div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>-->
+    <!--</div> &ndash;&gt;-->
+  <!--</div>-->
+
+  <!--<div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">-->
+      <!--<div class="{{ page.city }}-tint">-->
+        <!--<h1 id="hackathon-title">-->
+          <!--{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}-->
+        <!--</h1>-->
+        <!--<h4 id="hackathon-theme">-->
+          <!--{{ page.title }} - <nobr>{{ page.eventdate }}</nobr>-->
+        <!--</h4>-->
+
+        <!--<h4 id="brief-overview">-->
+          <!--{{ site.theme_settings.header_text }}-->
+        <!--</h4>-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <!--<a name="speakers" id="speakers"></a>-->
+  <!--<section class="speakers-or-judges">-->
+    <!--<h1>Speakers</h1>-->
+    <!--{% for person in site.speakers %}-->
+      <!--{% if person.cities contains page.city %}-->
+        <!--{% if person.headline %}-->
+          <!--{% include speaker_or_judge.html person=person %}-->
+        <!--{% endif %}-->
+      <!--{% endif %}-->
+    <!--{% endfor %}-->
+    <!--{% for person in site.speakers %}-->
+      <!--{% if person.cities contains page.city %}-->
+        <!--{% unless person.headline %}-->
+          <!--{% include speaker_or_judge.html person=person %}-->
+        <!--{% endunless %}-->
+      <!--{% endif %}-->
+    <!--{% endfor %}-->
+    <!--{% comment %}-->
+      <!--<h1>Judges</h1>-->
+      <!--{% for person in site.judges %}-->
+        <!--{% if person.cities contains page.city %}-->
+          <!--{% include speaker_or_judge.html person=person %}-->
+        <!--{% endif %}-->
+      <!--{% endfor %}-->
+    <!--{% endcomment %}-->
+  <!--</section>-->
+
+  <!--<section class="location">-->
+    <!--<h1>Location</h1>-->
+    <!--<div class="location-container">-->
+      <!--<div class="map">-->
+        <!--{% google_map zoom="15" class="google-map" %}-->
+      <!--</div>-->
+      <!--<div class="address">-->
+        <!--<h2>{{ page.location.title }}</h2>-->
+        <!--{{ page.location.address }}-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</section>-->
+
+  <!--<section class="partners-or-sponsors">-->
+    <!--<h1>Partners</h1>-->
+    <!--<div class="grid">-->
+      <!--{% for org in site.partners %}-->
+        <!--{% include partner_or_sponsor.html org=org %}-->
+      <!--{% endfor %}-->
+    <!--</div>-->
+    <!--<h1>Sponsors</h1>-->
+    <!--<div class="grid">-->
+      <!--{% for org in site.sponsors %}-->
+        <!--{% include partner_or_sponsor.html org=org %}-->
+      <!--{% endfor %}-->
+    <!--</div>-->
+  <!--</section>-->
+
+<!--</div>-->

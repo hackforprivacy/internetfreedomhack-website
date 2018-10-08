@@ -1,98 +1,152 @@
 ---
 layout: default
 ---
-
 <div class="home">
 
-    <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-      <div class="home-tint">
+  <div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+    <div class="home-tint">
+      <h1 id="hackathon-title">
+        {{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}
+      </h1>
 
       <h4 id="brief-overview">
         {{ site.theme_settings.header_text }}
       </h4>
-      <p>
-        Join us for Aaron Swartz day 2018 from <b>November 9th-11th</b> <a href="#register">Register Now</a>
-      </p>
-    </div>
-  </div>
-  <div class="posts">
 
-    <div class="post-teaser">
-      <h1>Why Attend</h1>
-      <div class="excerpt">
-        <p>
-          Internet Freedom Hack is a great way to apply your skills, network, and have fun working in a small team on meaningful problems.
-          We make sure that everyone fits in to a team and has a good weekend.
-        </p>
-        <p>
-          Most hackathons and startup weekend events need to charge a fee but due to our generous sponsors
-          and motivated volunteers, we are able to offer this event for free.
-        </p>
-      </div>
-    </div>
-
-  </div>
-  <div class="posts">
-    <div class="post-teaser">
-      <h1>What will happen</h1>
-      <div class="excerpt">
-        <p>This is a rough outline, event schedules will be released soon.</p>
-
-        <div style="display:flex;">
-          <div style="flex:50%;">
-            <b>Friday</b>:
-            <ul>
-              <li>~5:30pm Arrive, Drinks, Pizza</li>
-              <li>~6:30pm Keynote</li>
-              <li>~7:00 Problem owner pitches</li>
-              <li>~8:00 form teams</li>
-              <li>~10:00 close</li>
-            </ul>
-            <b>Saturday</b>
-            <ul>
-              <li>~8:00 doors open</li>
-              <li>~8:30 breakfast</li>
-              <li>~9:00 Hacking with your team and problem owners</li>
-              <li>~12:00 lunch</li>
-              <li>~5:00pm Guest speaker</li>
-            </ul>
+      <div id="locations">
+        {% for event in site.events %}
+        <div class="city-info">
+          <div class="event-title">
+            {{ event.title }}
           </div>
-          <div style="flex:50%;">
-            <b>Sunday</b>
-            <ul>
-              <li>8:00 doors open</li>
-              <li>9:00 Breakfast</li>
-              <li>10:00 Dial in to <a href="https://www.aaronswartzday.org/sfhackathon/">San Fransisco</a> for a live interview with Barret Brown and others of the <a href="https://www.aaronswartzday.org/pursuance-project/">Pursuance Project</a></li>
-              <li>3:30pm Team presentations</li>
-              <li>4:30pm Awards ceremony</li>
-              <li>5:00pm Drinks, Pizza</li>
-            </ul>
+          <div class="event-date">
+            {{ event.eventdate }}
           </div>
+          <a class="homepage-button" href="{{ event.learn_more_link }}">
+            Learn more
+          </a>
+          <a class="homepage-button" href="{{ event.rsvp_link }}">
+            RSVP
+          </a>
+        </div>
+        {% endfor %}
       </div>
     </div>
   </div>
-  <div class="posts">
-    <div class="post-teaser interest">
-      <header><a name="register"></a><h1>Registration for Aaron Swartz Day 2018</h1></header>
-      <div class="excerpt">{% capture interest %}{% include register_interest.md %}{% endcapture %}{{ interest | markdownify }}</div>
-    </div>
-  </div>
-  <div id="talk-videos">
-    <h2>
-      Watch talks from IFH: Defending Truth
-    </h2>
-    <iframe src="https://player.vimeo.com/video/270584609" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <iframe src="https://player.vimeo.com/video/271020618" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <iframe src="https://player.vimeo.com/video/271025691" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <iframe src="https://player.vimeo.com/video/271028495" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <iframe src="https://player.vimeo.com/video/271024249" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <iframe src="https://player.vimeo.com/video/270585593" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  </div>
-  <div class="home-no-tint">
-    {% capture projects %}{% include projects.md %}{% endcapture %}{{ projects | markdownify }}
-  </div>
-  <div class="home-no-tint">
-    {% capture videos %}{% include talk_videos.md %}{% endcapture %}{{ videos | markdownify }}
-  </div>
-
 </div>
+
+
+<!--<div class="home">-->
+
+    <!--<div class="call-out" style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">-->
+      <!--<div class="home-tint">-->
+
+      <!--<h4 id="brief-overview">-->
+        <!--{{ site.theme_settings.header_text }}-->
+      <!--</h4>-->
+      <!--<p>-->
+        <!--Join us for Aaron Swartz day 2018 from <b>November 9th-11th</b>-->
+
+        <!--<a class="homepage-button" href="{{ event.rsvp_link }}">Register Now</a>-->
+      <!--</p>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="posts">-->
+    <!--<div id="locations">-->
+      <!--{% for event in site.events %}-->
+      <!--<div class="city-info">-->
+        <!--<div class="event-title">-->
+          <!--{{ event.title }}-->
+        <!--</div>-->
+        <!--<div class="event-date">-->
+          <!--{{ event.eventdate }}-->
+        <!--</div>-->
+        <!--<a class="homepage-button" href="{{ event.learn_more_link }}">-->
+          <!--Learn more-->
+        <!--</a>-->
+        <!--<a class="homepage-button" href="{{ event.rsvp_link }}">-->
+          <!--RSVP-->
+        <!--</a>-->
+      <!--</div>-->
+      <!--{% endfor %}-->
+    <!--</div>-->
+
+    <!--<div class="post-teaser">-->
+      <!--<h1>Why Attend</h1>-->
+      <!--<div class="excerpt">-->
+        <!--<p>-->
+          <!--Internet Freedom Hack is a great way to apply your skills, network, and have fun working in a small team on meaningful problems.-->
+          <!--We make sure that everyone fits in to a team and has a good weekend.-->
+        <!--</p>-->
+        <!--<p>-->
+          <!--Most hackathons and startup weekend events need to charge a fee but due to our generous sponsors-->
+          <!--and motivated volunteers, we are able to offer this event for free.-->
+        <!--</p>-->
+      <!--</div>-->
+    <!--</div>-->
+
+  <!--</div>-->
+  <!--<div class="posts">-->
+    <!--<div class="post-teaser">-->
+      <!--<h1>What will happen</h1>-->
+      <!--<div class="excerpt">-->
+        <!--<p>This is a rough outline, event schedules will be released soon.</p>-->
+
+        <!--<div style="display:flex;">-->
+          <!--<div style="flex:50%;">-->
+            <!--<b>Friday</b>:-->
+            <!--<ul>-->
+              <!--<li>~5:30pm Arrive, Drinks, Pizza</li>-->
+              <!--<li>~6:30pm Keynote</li>-->
+              <!--<li>~7:00 Problem owner pitches</li>-->
+              <!--<li>~8:00 form teams</li>-->
+              <!--<li>~10:00 close</li>-->
+            <!--</ul>-->
+            <!--<b>Saturday</b>-->
+            <!--<ul>-->
+              <!--<li>~8:00 doors open</li>-->
+              <!--<li>~8:30 breakfast</li>-->
+              <!--<li>~9:00 Hacking with your team and problem owners</li>-->
+              <!--<li>~12:00 lunch</li>-->
+              <!--<li>~5:00pm Guest speaker</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+          <!--<div style="flex:50%;">-->
+            <!--<b>Sunday</b>-->
+            <!--<ul>-->
+              <!--<li>8:00 doors open</li>-->
+              <!--<li>9:00 Breakfast</li>-->
+              <!--<li>10:00 Dial in to <a href="https://www.aaronswartzday.org/sfhackathon/">San Fransisco</a> for a live interview with Barret Brown and others of the <a href="https://www.aaronswartzday.org/pursuance-project/">Pursuance Project</a></li>-->
+              <!--<li>3:30pm Team presentations</li>-->
+              <!--<li>4:30pm Awards ceremony</li>-->
+              <!--<li>5:00pm Drinks, Pizza</li>-->
+            <!--</ul>-->
+          <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div class="posts">-->
+    <!--<div class="post-teaser interest">-->
+      <!--<header><a name="register"></a><h1>Registration for Aaron Swartz Day 2018</h1></header>-->
+      <!--<div class="excerpt">{% capture interest %}{% include register_interest.md %}{% endcapture %}{{ interest | markdownify }}</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <!--<div id="talk-videos">-->
+    <!--<h2>-->
+      <!--Watch talks from IFH: Defending Truth-->
+    <!--</h2>-->
+    <!--<iframe src="https://player.vimeo.com/video/270584609" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+    <!--<iframe src="https://player.vimeo.com/video/271020618" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+    <!--<iframe src="https://player.vimeo.com/video/271025691" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+    <!--<iframe src="https://player.vimeo.com/video/271028495" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+    <!--<iframe src="https://player.vimeo.com/video/271024249" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+    <!--<iframe src="https://player.vimeo.com/video/270585593" width="480" height="270" frameborder="1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+  <!--</div>-->
+  <!--<div class="home-no-tint">-->
+    <!--{% capture projects %}{% include projects.md %}{% endcapture %}{{ projects | markdownify }}-->
+  <!--</div>-->
+  <!--<div class="home-no-tint">-->
+    <!--{% capture videos %}{% include talk_videos.md %}{% endcapture %}{{ videos | markdownify }}-->
+  <!--</div>-->
+
+<!--</div>-->

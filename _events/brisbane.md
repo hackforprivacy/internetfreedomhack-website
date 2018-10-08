@@ -2,11 +2,11 @@
 layout: event
 title: Brisbane
 city: brisbane
-eventdate: April 20th to April 22nd
+eventdate: November 9th to 11th
 friendly_eventdate: All weekend
-pretix_event_id: 825
+pretix_event_id: 2617
 learn_more_link: "/brisbane"
-rsvp_link: "https://pretix.eu/thoughtworks/freedomhack/825/"
+rsvp_link: "https://pretix.eu/thoughtworks/IFH-DE/2617/"
 location:
   latitude: -27.4656812
   longitude: 153.0278049

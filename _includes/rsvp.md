@@ -23,4 +23,4 @@ Internet Freedom Hack {{ page.title }} is running from <b>{{ page.eventdate }}</
 
 All meals and drinks will be provided.
 
-This is a child friendly event. There will be activities, games and a dedicated child play room. Please <a href="/contact-us">get in touch</a> to let us know if you are bringing kids, and their age, so we can provide age appropriate entertainment.
+Children are welcome if you can keep an eye on them youself but we can't commit to providing childcare this time.
