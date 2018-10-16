@@ -130,10 +130,11 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
 // Suggest an idea
 /* Background pattern from Subtle Patterns - https://www.toptal.com/designers/subtlepatterns/ */
 .posts .idea {
-  background-image: url('/assets/img/darkness.png');
+  //background-image: url('/assets/img/darkness.png');
+  background-color: #fafafa;
   background-size: auto;
   p, li, h1, label {
-    color: white;
+    color: $text-color;
   }
 }
 // Register interest

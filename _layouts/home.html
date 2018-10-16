@@ -57,46 +57,18 @@ layout: default
     <!--</div>-->
 
   </div>
+
+
+  <!--time schedule-->
   <div class="posts">
     <div class="post-teaser">
-      <h1>What will happen</h1>
-      <div class="excerpt">
 
-        <div style="display:flex;">
-          <div style="flex:50%;">
-            <b>Friday</b>:
-            <ul>
-              <li>~5:30 Arrive, Drinks, Pizza</li>
-              <li>~6:30 Keynote</li>
-              <li>~7:00 Problem owner pitches</li>
-              <li>~8:00 form teams</li>
-              <li>~10:00 close</li>
-            </ul>
-            <b>Saturday</b>
-            <ul>
-              <li>~8:00 doors open</li>
-              <li>~8:30 breakfast</li>
-              <li>~9:00 Hacking with your team and problem owners</li>
-              <li>~12:00 lunch</li>
-              <li>~5:00 Guest speaker</li>
-            </ul>
-          </div>
-          <div style="flex:50%;">
-            <b>Sunday</b>
-            <ul>
-              <li>8:00 doors open</li>
-              <li>9:00 Breakfast</li>
-              <li>10:00 Dial in to <a href="https://www.aaronswartzday.org/sfhackathon/">San Fransisco</a> for a live
-                interview with Barret Brown and others of the <a
-                    href="https://www.aaronswartzday.org/pursuance-project/">Pursuance Project</a></li>
-              <li>3:30 Team presentations</li>
-              <li>4:30 Awards ceremony</li>
-              <li>5:00 Drinks, Pizza</li>
-            </ul>
-          </div>
-        </div>
+      <div class="excerpt">
+        {% capture idea %}{% include time-schedule.html %}{% endcapture %}{{ idea | markdownify  }}
       </div>
     </div>
+
+
     <!--<div class="posts">-->
     <!--<div class="post-teaser interest">-->
     <!--<header><a name="register"></a><h1>Registration for Aaron Swartz Day 2018</h1></header>-->
@@ -122,3 +94,5 @@ layout: default
     <!--</div>-->
 
   </div>
+
+</div>
