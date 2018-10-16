@@ -1,0 +1,134 @@
+.content-tile {
+  float: left;
+  position: relative;
+  height: 680px;
+
+  &.col-1-2 {
+    width: 100%;
+
+    @media (min-width: 42em) {
+      width: 46%;
+      margin: 0 2%;
+      height: 600px;
+    }
+  }
+
+  a {
+    color: black;
+
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
+  .wrapper {
+    float: left;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    background-color: white;
+
+    .title-section {
+      font-weight: bold;
+      text-transform: uppercase;
+      padding: 0 0 20px 0;
+      height: 60px;
+    }
+
+    .image-section {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      width: 100%;
+      left: 0;
+      top: 0;
+      height: 100%;
+      -webkit-box-shadow: 0 2px 10px #c1c1c1;
+      box-shadow: 0 2px 10px #c1c1c1;
+    }
+
+    .text-overlay {
+      padding: 40px 40px 20px 40px;
+      width: 90%;
+      right: 0;
+      background: white;
+      bottom: 50px;
+      text-align: center;
+      margin: 0 5% 20px;
+      overflow: hidden;
+      position: relative;
+      color: black;
+      font-size: 14px;
+
+      .button {
+        background-color: white;
+        font-size: 20px;
+
+        &:hover {
+          background: $link-color;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.more {
+  float: left;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 50px 0 0 0;
+
+  a {
+    color: black;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 0.3em;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.time-schedule {
+  margin: 0 auto;
+
+  h1 {
+    text-align: left;
+  }
+
+  .day-blob {
+
+    border-bottom: 1px dashed #ccc8c8;
+    float: left;
+    width: 100%;
+    
+    b {
+      float: left;
+      width: 100%;
+      margin: 20px 0;
+      text-transform: uppercase;
+      font-size: 22px;
+    }
+
+    ul {
+      margin: 0;
+
+      li {
+        list-style-type: none;
+        margin: 15px 0;
+
+        span {
+          background-color: #f1f1f1;
+          font-weight: bold;
+          padding: 5px 10px;
+          border-radius: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
