@@ -8,8 +8,8 @@ The theme this time is "defending encryption" (against the government's <a href=
 
 Our mission is to grow the digital rights movement, and contribute positively and effectively to advancing internet freedom. By attending you'll get a chance to: 
 
-work with a small team on a meaningful problem
-be recognised by the civil society community 
+ * work with a small team on a meaningful problem
+ * be recognised by the civil society community 
 
 
 We need developers, experience designers, visual designers, quality analysts, business analysts, puzzle solvers, ideas people, managers, and anyone else with an interest in collaborative development, or the causes of privacy, digital rights, transparency, or accountability.
