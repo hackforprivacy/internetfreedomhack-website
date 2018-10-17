@@ -59,6 +59,14 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
     font-weight: 100;
     font-size: 1.25rem;
   }
+
+  .Profile-image {
+    img {
+      float: none;
+      width: 150px;
+      border-radius: 100px;
+    }
+  }
 }
 
 .speaker-or-judge > header {
