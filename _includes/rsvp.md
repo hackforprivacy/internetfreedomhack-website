@@ -2,9 +2,9 @@
 
 ### The Hack
 #### {{ page.friendly_eventdate }}
-Internet Freedom Hack is a community hackathon event that brings technologists and people with a passion for digital rights together to build software that advances the cause of internet freedom. We will run for the third time in Brisbane and Melbourne for Aaron Swartz Day, on the weekend <b>9th-11th November 2018</b>.
+Internet Freedom Hack is a community hackathon event that brings technologists and people with a passion for digital rights together to build software that advances the cause of internet freedom. We will run for the third time in Brisbane and Melbourne for <a href="https://www.aaronswartzday.org/">Aaron Swartz Day</a>, on the weekend <b>9th-11th November 2018</b>.
 
-The theme this time is "defending encryption" (against the government's <a href="https://www.youtube.com/watch?v=eW-OMR-iWOE">attack on encryption</a>). Any project that fits under the broad umbrella of internet freedom, including anything that aligns closely with Aaron Swartz's work on transparency and accountability, is welcome.
+The theme this time is "defending encryption" (against the government's <a href="https://www.youtube.com/watch?v=eW-OMR-iWOE">attack on encryption</a>). Any project that fits under the broad umbrella of internet freedom, including anything that aligns closely with <a href="https://www.youtube.com/watch?v=RvsxnOg0bJY">Aaron Swartz's work</a> on transparency and accountability, is welcome.
 
 Our mission is to grow the digital rights movement, and contribute positively and effectively to advancing internet freedom. By attending you'll get a chance to: 
 
