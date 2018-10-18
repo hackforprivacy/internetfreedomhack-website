@@ -1,4 +1,10 @@
 <hr>
+{% if page.city == 'brisbane' %}
+### The Talks
+We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of *the TOR project* on **9th November**
+
+<div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
+{% endif %}
 
 ### The Hack
 #### {{ page.friendly_eventdate }}
