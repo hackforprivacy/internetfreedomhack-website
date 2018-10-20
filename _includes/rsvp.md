@@ -1,10 +1,12 @@
 <hr>
-{% if page.city == 'brisbane' %}
 ### The Talks
+#### {{ page.friendly_talkdate }}
+{% if page.city == 'brisbane' %}
 We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of *the TOR project* on **9th November**
-
-<div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
+{% elsif page.city == 'melbourne' %}
+The talks are still being finalised, check back soon.
 {% endif %}
+<div class="center"><a class="button" href="{{ page.rsvp_link }}">Register now</a></div>
 
 ### The Hack
 #### {{ page.friendly_eventdate }}
@@ -22,7 +24,7 @@ We need developers, experience designers, visual designers, quality analysts, bu
 
 We'll form teams – you don't need to be an expert in any field.
 
-<div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
+<div class="center"><a class="button" href="{{ page.rsvp_link }}">Register now</a></div>
 
 <hr>
 

@@ -3,6 +3,7 @@ layout: event
 title: Brisbane
 city: brisbane
 eventdate: November 9th to 11th
+friendly_talkdate: Friday evening
 friendly_eventdate: All weekend
 pretix_event_id: 2617
 learn_more_link: "/brisbane"
