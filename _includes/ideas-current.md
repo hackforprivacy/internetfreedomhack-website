@@ -32,7 +32,31 @@
                 </div>
                 <div class="summary-section">
                     <div class="text">  
-                        <span> Data collection, extraction, aggregation, predictive profiling on the commercial web is rampant exploitation of individual personal data in the current era of surveillance capitalism...
+                        <span> Data collection, extraction, aggregation, predictive profiling on the commercial web is rampant exploitation of individual personal data in the current era of surveillance capitalism ...
+                        </span>   
+                    </div>
+                    <div class="button-area">
+                        <button type="button" class="button"> <span> Read more </span> </button>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="content-tile col-1-2">
+    <div class="wrapper">
+       <a href="/verbose-mode-for-algorithmic-transparency">
+            <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
+            </div>
+            <div class="text-overlay">
+                <div class="title-section">
+                    <span> Verbose Mode for Algorithmic Transparency: Opening the Bonnet of Explainable AI </span>
+                </div>
+                <div class="summary-section">
+                    <div class="text">  
+                        <span> 
+                        We live in a mediated world that is increasingly governed, judged, and served back to us by computer code. The emergence of this new data-driven era challenges the positive aspects of the ...
                         </span>   
                     </div>
                     <div class="button-area">
