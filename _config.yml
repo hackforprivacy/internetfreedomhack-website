@@ -35,7 +35,7 @@ theme_settings:
      <p>Internet Freedom Hack is a series of community events that bring technologists with a passion for digital rights together to build things that advance the cause of internet freedom.</p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
-     <a href="/project-ideas"> Project ideas </a>  •  <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-what-should-we-do/">Project ideas</a> • <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-who-should-come/">Who should come?</a> • <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
+     <a href="/project-ideas"> Project ideas </a> • <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-who-should-come/">Who should come?</a> • <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
 
   # Icons
   rss: false
