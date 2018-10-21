@@ -2,7 +2,7 @@
 ### The Talks
 #### {{ page.friendly_talkdate }}
 {% if page.city == 'brisbane' %}
-We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of *the TOR project* on **9th November**
+We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of the *Tor Project* on **9th November**
 {% elsif page.city == 'melbourne' %}
 The talks are still being finalised, check back soon.
 {% endif %}
@@ -14,10 +14,10 @@ Internet Freedom Hack is a community hackathon event that brings technologists a
 
 The theme this time is "defending encryption" (against the government's <a href="https://www.youtube.com/watch?v=eW-OMR-iWOE">attack on encryption</a>). Any project that fits under the broad umbrella of internet freedom, including anything that aligns closely with <a href="https://www.youtube.com/watch?v=RvsxnOg0bJY">Aaron Swartz's work</a> on transparency and accountability, is welcome.
 
-Our mission is to grow the digital rights movement, and contribute positively and effectively to advancing internet freedom. By attending you'll get a chance to: 
+Our mission is to grow the digital rights movement, and contribute positively and effectively to advancing internet freedom. By attending you'll get a chance to:
 
  * work with a small team on a meaningful problem
- * be recognised by the civil society community 
+ * be recognised by the civil society community
 
 
 We need developers, experience designers, visual designers, quality analysts, business analysts, puzzle solvers, ideas people, managers, and anyone else with an interest in collaborative development, or the causes of privacy, digital rights, transparency, or accountability.
