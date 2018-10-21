@@ -27,19 +27,6 @@ layout: default
     </div>
   </div>
 
-  <section class="location">
-    <h1>Location</h1>
-    <div class="location-container">
-      <div class="map">
-        {% google_map zoom="15" class="google-map" %}
-      </div>
-      <div class="address">
-        <h2>{{ page.location.title }}</h2>
-        {{ page.location.address }}
-      </div>
-    </div>
-  </section>
-
 
   <a name="speakers" id="speakers"></a>
   <section class="speakers-or-judges">
@@ -73,6 +60,18 @@ layout: default
   </section>
 
 
+  <div class="post-teaser idea">
+    <header>
+      <h1>Project ideas for the hackathon</h1>
+    </header>
+    <div class="excerpt">
+      {% capture idea %}{% include ideas-current.md %}{% endcapture %}{{ idea | markdownify }}
+    </div>
+    <!--<div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>-->
+  </div>
+</div>
+
+
 
   <div class="posts">
     <div class="post-teaser">
@@ -85,16 +84,19 @@ layout: default
   <div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
 
 
-  <div class="post-teaser idea">
-    <header>
-      <h1>Project ideas for the hackathon</h1>
-    </header>
-    <div class="excerpt">
-      {% capture idea %}{% include ideas-current.md %}{% endcapture %}{{ idea | markdownify }}
+
+<section class="location">
+  <h1>Location</h1>
+  <div class="location-container">
+    <div class="map">
+      {% google_map zoom="15" class="google-map" %}
     </div>
-    <!--<div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>-->
+    <div class="address">
+      <h2>{{ page.location.title }}</h2>
+      {{ page.location.address }}
+    </div>
   </div>
-</div>
+</section>
 
 
 <section class="partners-or-sponsors">
