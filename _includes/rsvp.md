@@ -4,7 +4,7 @@
 {% if page.city == 'brisbane' %}
 We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of the *Tor Project* on **9th November**
 {% elsif page.city == 'melbourne' %}
-We have talks from Chris Culnane, Scout Quinn, and Suelette Dreyfus of the *Founder of Blueprint for Free Speech* on **9th November**
+We have talks from Chris Culnane, Scout Quinn, and *Founder of Blueprint for Free Speech* Suelette Dreyfus on **9th November**
 {% endif %}
 <div class="center"><a class="button" href="{{ page.rsvp_link }}">Register now</a></div>
 
