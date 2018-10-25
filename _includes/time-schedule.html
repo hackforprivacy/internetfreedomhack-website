@@ -4,18 +4,19 @@
     <div class="day-blob">
         <b>Friday:</b>
         <ul>
-            <li> <span> 17:30 </span> Arrive, Drinks, Pizza </li>
-            {% if page.city=='brisbane' %}
-            <li> <span> 18:15 </span> Monique Mann on *ASS Access but not a backdoor* </li>
-            <li> <span> 18:35 </span> Angus Murray on *IP and trade secrets and transparency* </li>
-            <li> <span> 18:55 </span> Tim Wilson-Brown on *Working Together for Online Freedom* </li>
-            {% elsif page.city=='melbourne' %}
-            <li> <span> 18:15 </span> Talks from industry professionals. Check back soon to find out more.</li>
+            <li> <span> 17:30 </span> Arrive, Drinks, Snacks </li>
+            {% case page.city %}
+            {% when 'brisbane' %}
+            <li> <span> 18:15 </span> Monique Mann on <strong>ASS Access but not a backdoor</strong> </li>
+            <li> <span> 18:35 </span> Angus Murray on <strong>IP and trade secrets and transparency</strong> </li>
+            <li> <span> 18:55 </span> Tim Wilson-Brown on <strong>Working Together for Online Freedom</strong> </li>
+            {% when 'melbourne' %}
+            <li> <span> 18:15 </span> Talks from industry professionals.</li>
             {% else %}
-            <li> <span> 18:15 </span> Talks from industry professionals.
+            <li> <span> 18:15 </span> Talks from industry professionals (see <a href="#speakers">Speakers</a>).
                 See the <a href="./brisbane#schedule">Brisbane</a> and
                 <a href="./melbourne#schedule">Melbourne</a> schedules to find out more.</li>
-            {% endif %}
+            {% endcase %}
             <li> <span> 19:15 </span> Pitching warm up </li>
             <li> <span> 19:45 </span> Pitches </li>
             <li> <span> 20:00 </span> Form teams </li>
@@ -39,13 +40,20 @@
         <ul>
             <li> <span> 08:00 </span> Doors open </li>
             <li> <span> 09:00 </span> Breakfast </li>
-            <li> <span> 10:00 </span> Dial in to <a href="https://www.aaronswartzday.org/sfhackathon/">San Francisco</a>
-                for a live
-                interview with Barrett Brown and others from the <a href="https://www.aaronswartzday.org/pursuance-project/">Pursuance
-                    Project</a></li>
+            <!-- 16:30 PDT (SF) is 10:30 AEDT (MEL) is 9:30 AEST (BNE) -->
+            <li>
+                {% case page.city %}
+                {% when 'brisbane' %}
+                <span> 09:30 </span>
+                {% when 'melbourne' %}
+                <span> 10:30 </span>
+                {% endcase %}
+                Dial in to <a href="https://www.aaronswartzday.org/sfhackathon/">San Francisco</a>
+                for a live interview with Barrett Brown and others from the
+                <a href="https://www.aaronswartzday.org/pursuance-project/">Pursuance Project</a></li>
             <li> <span> 15:30 </span> Team presentations </li>
             <li> <span> 16:30 </span> Awards Ceremony </li>
-            <li> <span> 17:00 </span> Drinks, Pizza </li>
+            <li> <span> 17:00 </span> Drinks, Snacks </li>
         </ul>
     </div>
 </div>

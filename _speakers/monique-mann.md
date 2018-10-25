@@ -1,7 +1,7 @@
 ---
 imageURL: /assets/img/monique.jpg
 name: Dr Monique Mann
-job_and_qualifications: Dr Mann is advancing a program of socio-legal research on the intersecting topics of algorithmic justice, police technology, surveillance, and transnational online policing. She is on the Board of Directors of the Australian Privacy Foundation.
+job_and_qualifications: Advancing a program of socio-legal research on algorithmic justice, police technology, surveillance, and transnational online policing. Board of Directors member of the Australian Privacy Foundation.
 cities:
   - brisbane
 ---
