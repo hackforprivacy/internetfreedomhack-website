@@ -1,5 +1,5 @@
 ---
-imageURL: /assets/img/scout.png
+imageURL: /assets/img/scout.jpg
 name: Scout Quinn
 job_and_qualifications: Non-binary technologist with absolutely nothing to hide in their medical history
 cities:
