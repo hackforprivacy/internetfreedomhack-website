@@ -1,6 +1,7 @@
 ---
 imageURL: /assets/img/scout.jpg
 name: Scout Quinn
+pronoun: They/Them
 job_and_qualifications: Non-binary technologist with absolutely nothing to hide in their medical history
 cities:
   - melbourne

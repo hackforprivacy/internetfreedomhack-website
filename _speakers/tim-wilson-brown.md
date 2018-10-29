@@ -1,6 +1,7 @@
 ---
 imageURL: /assets/img/tim.jpeg
 name:  Tim Wilson-Brown
+pronoun: They/Them
 job_and_qualifications: Software Developer at The Tor Project, Security Researcher
 cities:
   - brisbane

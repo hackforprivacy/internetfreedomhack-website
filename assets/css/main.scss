@@ -80,6 +80,11 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
   min-width: 250px;
 }
 
+.speaker-or-judge .pronoun {
+  font-style: italic;
+  font-size: smaller;
+}
+
 // Location & map
 /* Background pattern from Subtle Patterns - https://www.toptal.com/designers/subtlepatterns/ */
 .location {
