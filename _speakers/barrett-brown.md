@@ -1,6 +1,7 @@
 ---
 imageURL: /assets/img/barrett.jpg
 name: Barrett Brown
+headline: true
 job_and_qualifications: Writer and anarchist activist. Founded Project PM, which investigates the private espionage industry and the intelligence community.
 cities:
   - melbourne
