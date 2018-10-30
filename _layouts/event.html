@@ -65,7 +65,10 @@ layout: default
       <h1>Project ideas for the hackathon</h1>
     </header>
     <div class="excerpt">
-      {% capture idea %}{% include ideas-current.md %}{% endcapture %}{{ idea | markdownify }}
+      {% for idea in site.ideas %}
+        {% include idea.html ideas=idea %}
+      {% endfor %}
+      <div class="more"> <a href="/project-ideas"> <span> View All Project Ideas </span> </a> </div>
     </div>
     <!--<div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>-->
   </div>

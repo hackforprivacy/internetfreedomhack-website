@@ -1,14 +1,8 @@
 ---
-layout: page
+layout: idea
+title: Data cooperatives and distributive data justice
+summary: Data collection, extraction, aggregation, predictive profiling on the commercial web is rampant exploitation of individual personal data in the current era of surveillance capitalism ...
 ---
-
-<div class="home">
-  <div class="call-out"
-       style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-  </div>
-</div>
-
-
 
 <p>Data collection, extraction, aggregation, predictive profiling on the commercial web is rampant exploitation of individual personal data in the current era of surveillance capitalism. Large corporations that collect and monetise personal information, rather than data subjects, are the main benefactors of this approach.</p>
 

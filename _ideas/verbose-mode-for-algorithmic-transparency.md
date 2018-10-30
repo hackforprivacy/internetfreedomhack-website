@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: idea
+title: "Verbose Mode for Algorithmic Transparency: Opening the Bonnet of Explainable AI"
+summary: We live in a mediated world that is increasingly governed, judged, and served back to us by computer code. The emergence of this new data-driven era challenges the positive aspects of the ...
 ---
-
-<div class="home">
-  <div class="call-out"
-       style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-  </div>
-</div>
 
 <p><b>Verbose Mode for Algorithmic Transparency: Opening the Bonnet of Explainable AI</b></p>
 

@@ -11,6 +11,10 @@ collections:
     output: false
   sponsors:
     output: false
+  ideas:
+    output: true
+    permalink: /:name
+    layout: page
   events:
     output: true
     permalink: /:name

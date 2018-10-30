@@ -1,13 +1,8 @@
 ---
-layout: page
+layout: idea
+title: "Re-decentralise the commercial web: a zero-knowledge recommendation system"
+summary: "The commercial web is built on business models that aggregate personal data for the benefit of advertisers. What would the web look like if consumers had control over the algorithms..."
 ---
-
-<div class="home">
-  <div class="call-out"
-       style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
-  </div>
-</div>
-
 
 <p><strong>Re-decentralise the commercial web: a zero-knowledge recommendation system</strong></p>
 
@@ -34,4 +29,3 @@ layout: page
 
 <li><span>Wired on building ethical recommendation systems that prioritise consumer choice:<a href="https://www.wired.com/story/creating-ethical-recommendation-engines/">https://www.wired.com/story/creating-ethical-recommendation-engines/</a></span></li>
 </ul>
-
