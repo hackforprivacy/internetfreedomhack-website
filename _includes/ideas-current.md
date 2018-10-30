@@ -2,9 +2,7 @@
 <div class="content-tile col-1-2">
     <div class="wrapper">
        <a href="/re-decentralise-the-commercial-web">
-            <div class="tint" style="background-color: rgba(20,63,138,.6)">
-              <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
-              </div>
+            <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
             </div>
             <div class="text-overlay">
                 <div class="title-section">
@@ -26,9 +24,7 @@
 <div class="content-tile col-1-2">
     <div class="wrapper">
        <a href="/data-cooperatives-and-distributive-data-justice">
-            <div class="tint" style="background-color: rgba(142,0,0,.6)">
-              <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
-              </div>
+            <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
             </div>
             <div class="text-overlay">
                 <div class="title-section">
@@ -51,9 +47,7 @@
 <div class="content-tile col-1-2">
     <div class="wrapper">
        <a href="/verbose-mode-for-algorithmic-transparency">
-            <div class="tint" style="background-color: rgba(98,39,142,.6)">
-              <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
-              </div>
+            <div class="image-section" style="background-image: url('/assets/img/share.jpg');">
             </div>
             <div class="text-overlay">
                 <div class="title-section">
@@ -61,7 +55,7 @@
                 </div>
                 <div class="summary-section">
                     <div class="text">  
-                        <span>
+                        <span> 
                         We live in a mediated world that is increasingly governed, judged, and served back to us by computer code. The emergence of this new data-driven era challenges the positive aspects of the ...
                         </span>   
                     </div>
