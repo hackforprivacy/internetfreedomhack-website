@@ -1,0 +1,13 @@
+{
+  "name": "internetfreedomhack-website",
+  "version": "1.0.0",
+  "scripts": {
+    "serve-lambda": "netlify-lambda serve functions/src",
+    "build-lambda": "netlify-lambda build functions/src",
+    "build": "jekyll build && yarn run build-lambda"
+  },
+  "dependencies": {
+    "netlify-lambda": "^1.0.2",
+    "request": "^2.88.0"
+  }
+}

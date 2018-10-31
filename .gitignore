@@ -8,3 +8,5 @@ Gemfile.lock
 internetfreedomhack-website.iml
 vendor
 node_modules
+functions/dist
+yarn-error.log

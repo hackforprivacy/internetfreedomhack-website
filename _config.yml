@@ -108,7 +108,7 @@ exclude:
   - vendor
   - docker-compose.yml
   - functions
-  - build.sh
+  - package.json
 
 # PLUGIN SETTINGS
 maps:
