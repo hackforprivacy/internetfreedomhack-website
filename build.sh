@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 jekyll build
-( cd functions ; yarn )
+( cd functions ; npm install )
