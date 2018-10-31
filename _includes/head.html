@@ -55,11 +55,16 @@
 	<meta name="twitter:title" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
 	<meta name="twitter:description" content="{{ site.theme_settings.description }}">
 	<meta name="twitter:site" content="{{ site.theme_settings.twitter }}">
-	<meta name="twitter:image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
 	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 	<meta property="og:title" content="{{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}{% if page.title %} {{ page.title }}{% endif %}">
 	<meta property="og:description" content="{{ site.theme_settings.description }}">
-	<meta property="og:image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
+	<meta property="og:image" content="{{ site.url }}/assets/img/share.png">
+	<meta property="og:video:url" content="{{ site.url }}/assets/img/share.mp4">
+	<meta property="og:video:secure_url" content="{{ site.url }}/assets/img/share.mp4">
+	<meta property="og:video:type" content="video/mp4">
+	<meta property="og:video:height" content="720">
+	<meta property="og:video:width" content="1280">
+	<meta name="twitter:image" content="{{ site.url }}/{{ site.theme_settings.share_image }}">
 	{% if page.url %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 	{% else %}
