@@ -163,3 +163,22 @@ section.speakers-or-judges, section.location, section.partners-or-sponsors {
   display: none !important;
   opacity: 0 !important;
 }
+
+h4.order-count {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.order-count {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 350ms ease-in-out, opacity 750ms ease-in-out;
+  -moz-transition: height 350ms ease-in-out, opacity 750ms ease-in-out;
+  transition: height 350ms ease-in-out, opacity 750ms ease-in-out;
+}
+
+.order-count.visible {
+  height: auto;
+  opacity: 1
+}
