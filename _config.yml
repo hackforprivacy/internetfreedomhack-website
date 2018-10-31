@@ -106,6 +106,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - docker-compose.yml
+  - functions
+  - build.sh
 
 # PLUGIN SETTINGS
 maps:

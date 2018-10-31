@@ -7,3 +7,4 @@ Gemfile.lock
 .idea
 internetfreedomhack-website.iml
 vendor
+node_modules
