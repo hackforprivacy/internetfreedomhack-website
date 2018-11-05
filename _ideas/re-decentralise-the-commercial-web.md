@@ -4,8 +4,6 @@ title: "Re-decentralise the commercial web: a zero-knowledge recommendation syst
 summary: "The commercial web is built on business models that aggregate personal data for the benefit of advertisers. What would the web look like if consumers had control over the algorithms..."
 ---
 
-<p><strong>Re-decentralise the commercial web: a zero-knowledge recommendation system</strong></p>
-
 <p>The commercial web is built on business models that aggregate personal data for the benefit of advertisers. What would the web look like if consumers had control over the algorithms that process their data?</p>
 
 <p>Develop a system that ingests a user's loyalty-card or banking data. Use it to feed a recommender system that interfaces with a comparison shopping API to present the user with personalised offers for products they are likely to need, according to preferences they set, without providing any personal data to any third party.</p>
