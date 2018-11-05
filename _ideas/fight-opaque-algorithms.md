@@ -4,7 +4,7 @@ title: Fight opaque algorithms
 summary: Web apps demonstrating how information and algorithms could be more transparent.
 ---
 
-There are a squillion ways that tech companies use your data to affect how they deliver you services (for better or worse). On top of the data you willing provide, companies have access to data they buy from data brokers, who combine data from many sources. Very few of the ways in which these data are used are well understood or well known, because they are usually kept behind closed doors.
+There are a squillion ways that tech companies use your data to affect how they deliver you services (for better or worse). On top of the data you consciously or inadvertently provide, companies have access to data they buy from data brokers, who combine data from many sources. Very few of the ways in which these data are used are well understood or well known, because they are usually kept behind closed doors.
 
 "Personalisation" algorithms relying on this data can lead to many negative outcomes as well as the touted positive ones. We believe that algorithms like this should be open sourced. We are therefore interested in building applications that demonstrate either a _better way_ of using or exposing the data, or the extent of the potential negative impacts. We want to make clear _why_ these algorithms should be made more transparent.
 
