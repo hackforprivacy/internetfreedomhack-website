@@ -32,4 +32,4 @@ summary: Data collection, extraction, aggregation, predictive profiling on the c
 
 ## See also
 
-[Fighting Opaque Algorithms](/fighting-opaque-algorithms)
+[Fight Opaque Algorithms](/fight-opaque-algorithms)
