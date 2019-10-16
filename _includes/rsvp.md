@@ -1,35 +1,6 @@
-<hr>
-### The Talks
-#### {{ page.friendly_talkdate }}
-{% if page.city == 'brisbane' %}
-We have talks from Dr Monique Mann of the *Australian Privacy Foundation*, Angus Murray of the *Queensland Council for Civil Liberties* and Tim Wilson Brown of the *Tor Project* on **9th November**
-{% elsif page.city == 'melbourne' %}
-We have talks from Chris Culnane, Scout Quinn, and *Founder of Blueprint for Free Speech* Suelette Dreyfus on **9th November**
-{% endif %}
-<div class="center"><a class="button" href="{{ page.rsvp_link }}">Register now</a></div>
 
-### The Hack
-#### {{ page.friendly_eventdate }}
-Internet Freedom Hack is a community hackathon event that brings technologists and people with a passion for digital rights together to build software that advances the cause of internet freedom. We will run for the third time in Brisbane and Melbourne for <a href="https://www.aaronswartzday.org/">Aaron Swartz Day</a>, on the weekend <b>9th-11th November 2018</b>.
+Aaron Swartz Day: CryptoBar {{ page.title }} is running at <b>{{ page.eventdate }}</b> at <b>{{ page.location.title }}</b>.
 
-The theme this time is "defending encryption" (against the government's <a href="https://www.youtube.com/watch?v=eW-OMR-iWOE">attack on encryption</a>). Any project that fits under the broad umbrella of internet freedom, including anything that aligns closely with <a href="https://www.youtube.com/watch?v=RvsxnOg0bJY">Aaron Swartz's work</a> on transparency and accountability, is welcome.
-
-Our mission is to grow the digital rights movement, and contribute positively and effectively to advancing internet freedom. By attending you'll get a chance to:
-
- * work with a small team on a meaningful problem
- * be recognised by the civil society community
-
-
-We need developers, experience designers, visual designers, quality analysts, business analysts, puzzle solvers, ideas people, managers, and anyone else with an interest in collaborative development, or the causes of privacy, digital rights, transparency, or accountability.
-
-We'll form teams – you don't need to be an expert in any field.
+Pizza and drinks will be provided.
 
 <div class="center"><a class="button" href="{{ page.rsvp_link }}">Register now</a></div>
-
-<hr>
-
-Internet Freedom Hack {{ page.title }} is running from <b>{{ page.eventdate }}</b> at <b>{{ page.location.title }}</b>.
-
-All meals and drinks will be provided.
-
-Children are welcome if you can keep an eye on them youself but we can't commit to providing childcare this time.

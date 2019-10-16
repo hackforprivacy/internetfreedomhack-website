@@ -25,21 +25,21 @@ collections:
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "Internet Freedom Hack"
-  subtitle: "Defending Encryption"
+  title: "Aaron Swartz Day"
+  subtitle: "CryptoBars"
   avatar: assets/img/ifh_logo_square.png
   gravatar: # Email MD5 hash
-  description: "Internet Freedom Hack is a series of community events that bring technologists with a passion for digital rights together to build things that advance the cause of internet freedom." # used by search engines
+  description: "This year, the Internet Freedom Hack community will be participating in the Aaron Swartz Day CryptoBar events across Melbourne, Brisbane, and Sydney." # used by search engines
   facebook_page_id: 1507988156173415
   share_image: assets/img/share.jpg
   locale: en_US
 
   # Header and footer text
   header_text: >
-     <p>Internet Freedom Hack is a series of community events that bring technologists with a passion for digital rights together to build things that advance the cause of internet freedom.</p>
+     <p>This year, the Internet Freedom Hack community will bring technologists with a passion for digital rights together to participate in the Aaron Swartz Day CryptoBar events across Melbourne, Brisbane, and Sydney.</p>
   header_text_feature_image: assets/img/home_page.jpg
   footer_text: >
-     <a href="/project-ideas"> Project ideas </a> • <a href="https://hackforprivacy.org/post/internet-freedom-hack-defending-truth-who-should-come/">Who should come?</a> • <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
+    <a href="/code-of-conduct">Code of conduct</a> • <a href="/contact-us">Contact us</a> • <a href="https://twitter.com/inetfreedomhack">Twitter</a>
 
   # Icons
   rss: false

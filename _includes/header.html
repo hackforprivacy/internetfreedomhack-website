@@ -21,7 +21,7 @@
 					{{ event.title }}
 				</a>
 			</li>
-				{% if event == site.events.first %}
+				{% if event != site.events.last %}
 				 <li>•</li>
 				{% endif %}
 			{% endfor %}

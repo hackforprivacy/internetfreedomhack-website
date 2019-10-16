@@ -29,63 +29,8 @@ layout: default
   </div>
 
 
-  <a name="speakers" id="speakers"></a>
-  <section class="speakers-or-judges">
-    <h1>Speakers</h1>
-    {% assign speaker_cities = site.speakers | map: "cities" | uniq %}
-    {% unless speaker_cities contains page.city %}
-    <p>Speakers TBA</p>
-    {% endunless %}
-    {% for person in site.speakers %}
-    {% if person.cities contains page.city %}
-    {% if person.headline %}
-    {% include speaker_or_judge.html person=person %}
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-    {% for person in site.speakers %}
-    {% if person.cities contains page.city %}
-    {% unless person.headline %}
-    {% include speaker_or_judge.html person=person %}
-    {% endunless %}
-    {% endif %}
-    {% endfor %}
-    {% comment %}
-    <h1>Judges</h1>
-    {% for person in site.judges %}
-    {% if person.cities contains page.city %}
-    {% include speaker_or_judge.html person=person %}
-    {% endif %}
-    {% endfor %}
-    {% endcomment %}
-  </section>
 
-
-  <div class="post-teaser idea">
-    <header>
-      <h1>Project ideas for the hackathon</h1>
-    </header>
-    <div class="excerpt">
-      {% for idea in site.ideas %}
-        {% include idea.html ideas=idea %}
-      {% endfor %}
-      <div class="more"> <a href="/project-ideas"> <span> View All Project Ideas </span> </a> </div>
-    </div>
-    <!--<div class="excerpt">{% capture idea %}{% include suggest_an_idea.md %}{% endcapture %}{{ idea | markdownify }}</div>-->
-  </div>
 </div>
-
-
-
-  <div class="posts">
-    <div class="post-teaser">
-      <div class="excerpt">
-        {% capture markdown %}{% include time-schedule.html %}{% endcapture %}{{ markdown | markdownify }}
-      </div>
-    </div>
-  </div>
-
-  <div class="center"><a class="button" href="{{ page.rsvp_link}}">Register now</a></div>
 
 
 
@@ -103,14 +48,6 @@ layout: default
 </section>
 
 
-<section class="partners-or-sponsors">
-  <h1>Partners</h1>
-  <div class="grid">
-    {% for org in site.partners %}
-    {% include partner_or_sponsor.html org=org %}
-    {% endfor %}
-  </div>
-</section>
 
 <!--<div class="home">-->
 

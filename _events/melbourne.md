@@ -2,12 +2,12 @@
 layout: event
 title: Melbourne
 city: melbourne
-eventdate: November 9th to 11th
-friendly_talkdate: Friday evening
-friendly_eventdate: All weekend
+eventdate: November 7th
+friendly_talkdate: Thursday 6PM
+friendly_eventdate: Thursday 6PM
 pretix_event_id: 2616
 learn_more_link: "/melbourne"
-rsvp_link: "https://pretix.eu/thoughtworks/IFH-DE/2616/"
+rsvp_link: "https://pretix.eu/thoughtworks/ASDay2019/"
 location:
   latitude: -37.8166797
   longitude: 144.9617733

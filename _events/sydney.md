@@ -1,16 +1,16 @@
 ---
 layout: event
-title: Brisbane
-city: brisbane
+title: Sydney
+city: sydney
 eventdate: November 7th
 friendly_talkdate: Thursday 6PM
 friendly_eventdate: Thursday 6PM
 pretix_event_id: 2617
-learn_more_link: "/brisbane"
+learn_more_link: "/sydney"
 rsvp_link: "https://pretix.eu/thoughtworks/ASDay2019/"
 location:
-  latitude: -27.4656812
-  longitude: 153.0278049
-  title: ThoughtWorks Brisbane
-  address: 19/127 Creek St, Brisbane
+  latitude: -33.8663031
+  longitude: 151.2044025
+  title: ThoughtWorks Sydney
+  address: 10/50 Carrington St, Sydney
 ---
