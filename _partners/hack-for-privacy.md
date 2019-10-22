@@ -1,6 +1,6 @@
 ---
 title: Hack For Privacy
-image: /assets/img/hackforprivacy.jpeg
+image: /assets/img/ifh_logo_square.png
 link: 'https://hackforprivacy.org/'
 ---
 

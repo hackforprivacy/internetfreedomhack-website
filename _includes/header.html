@@ -13,7 +13,9 @@
 			<a href="{{ site.baseurl }}/">{{ site.theme_settings.title }}<span class="hide-mobile">: {{site.theme_settings.subtitle }}</span></a>
 		</h1>
 	</div>
-	<nav class="site-nav">
+
+<!-- We only want one page for the moment -->
+	<!--<nav class="site-nav">
 		<ul>
 			{% for event in site.events %}
 			<li>
@@ -24,12 +26,12 @@
 				{% if event != site.events.last %}
 				 <li>•</li>
 				{% endif %}
-			{% endfor %}
+			{% endfor %} -->
 			<!-- Social icons from Font Awesome, if enabled  -->
-			{% include icons.html %}
+			<!--{% include icons.html %}-->
 
             <!-- Search bar -->
-            {% if site.theme_settings.search %}
+            <!--{% if site.theme_settings.search %}
             <li>
             <form action="{{ site.baseurl }}/search.html" method="get">
                 <input type="text" id="search-box" name="query" placeholder="Search" class="">
@@ -40,6 +42,5 @@
             </li>
             {% endif %}
 		</ul>
-	</nav>
-
+	</nav> -->
 </header>

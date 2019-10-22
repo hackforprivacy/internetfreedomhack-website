@@ -6,15 +6,27 @@ layout: default
   <div class="call-out"
        style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     <div class="home-tint">
-      <h1 id="hackathon-title">
-        {{ site.theme_settings.title }}: {{site.theme_settings.subtitle }}
+        <!-- Hardcoded for AS day -->
+      <!-- <h1 id="hackathon-title">
+        {{ site.theme_settings.title }}: <span class="asd-lighter">{{site.theme_settings.subtitle }}</span>
       </h1>
+    -->
+      <h1 id="hackathon-title">
+        <span class="capitalize">Aaron Swartz Day</span> <span class="asd-lighter">CryptoBar</span>
+      </h1>
+      <!-- Hardcoded for AS day -->
+      <h2 class="asd-subtitle">Friendly nerds help you secure your stuff</h2>
+        <p class="asd-when">6-8 PM, Thursday 7 November, Thoughtworks Offices</p>
+        <p class="asd-where"><b>Melbourne:</b> Level 23, 303 Collins Street</p>
+        <p class="asd-where"><b>Sydney:</b> Level 10, 50 Carrington Street</p>
+        <p class="asd-where"><b>Brisbane:</b> Level 19, 127 Creek Street</p>
 
-      <h4 id="brief-overview">
+
+      <!--<h4 id="brief-overview">
         {{ site.theme_settings.header_text }}
-      </h4>
+      </h4> -->
 
-      <div id="locations">
+      <!-- <div id="locations">
         {% for event in site.events %}
         <div class="city-info">
           <div class="event-title">
@@ -32,17 +44,23 @@ layout: default
         </div>
         {% endfor %}
       </div>
+      -->
     </div>
   </div>
 
-  <!-- <section class="partners-or-sponsors">
+  <!-- Hardcoded for AS day -->
+  <section class="asd-rsvp">
+    <b>FREE</b> event, <b>RSVP</b> essential <a class="homepage-button" href="https://pretix.eu/thoughtworks/ASDay2019/">https://pretix.eu/thoughtworks/ASDay2019/</a>
+  </section>
+
+  <section class="partners-or-sponsors">
     <h1>Partners</h1>
     <div class="grid">
       {% for org in site.partners %}
       {% include partner_or_sponsor.html org=org %}
       {% endfor %}
     </div>
-  </section> -->
+  </section>
 
   <div class="posts">
     <!--<div class="post-teaser">-->
