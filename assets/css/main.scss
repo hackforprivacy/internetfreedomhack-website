@@ -23,7 +23,7 @@ input, textarea {
 }
 
 h1#hackathon-title {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h1#hackathon-title .capitalize {
@@ -31,12 +31,26 @@ h1#hackathon-title .capitalize {
 }
 
 .asd-when {
-  //text-align: left;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 .asd-where {
-  //text-align: left;
-  font-size: 1.3em;
+  font-size: 1.1em;
+}
+.asd-main-content{
+  @extend %padding-small;
+  display: flex;
+  font-size: 1em;
+
+  .asd-speakers {
+    font-size:1.1em;
+  }
+}
+.asd-programme {
+  width: 60%;
+}
+
+.asd-aaron {
+  width: 40%;
 }
 
 .asd-lighter {
@@ -62,6 +76,7 @@ h1#hackathon-title .capitalize {
 
 section.speakers-or-judges, section.location, section.partners-or-sponsors {
   @extend %padding-regular;
+  padding-top: 0;
   width: 100%;
   margin-bottom: 0;
   display: inline-block;
@@ -217,4 +232,25 @@ h4.order-count {
 .order-count.visible {
   height: auto;
   opacity: 1
+}
+
+@media only screen and (max-width: 600px) {
+  .asd-main-content{
+    flex-direction: column;
+  }
+  .asd-programme {
+    width: 100%;
+  }
+
+  .asd-aaron {
+    width: 100%;
+  }
+  h1#hackathon-title {
+    font-size: 1.5em;
+  }
+
+  .asd-subtitle {
+    color: rgb(252, 250, 62);
+    font-size: 1.5em;
+  }
 }
